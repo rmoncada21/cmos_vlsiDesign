@@ -11,13 +11,22 @@
 ## Ejemplo 2 - sección 8.2.2 Analisis transitorio DC:
 - Circuito de prueba para un transistor nMOS de unidad (4/2 λ) en un proceso de 65 nm con 𝑉𝐷𝐷 = 1.0V. Las características I-V se trazan en la Figura utilizando el conjunto SPICE
 
-![alt text](nMOS_basico.png)
+<div style="text-align: center;">
+  <img src="img/nMOS_basico.png" alt="Descripción de la imagen" />
+  <p>nMOS básico.</p>
+</div>
 
-![alt text](nMOS_basico_curva.png)
+<div style="text-align: center;">
+  <img src="img/nMOS_basico_curva.png" alt="Descripción de la imagen" />
+  <p>curva de una nMOS.</p>
+</div>
 
 ## Ejemplo 3 - sección 8.2.3 Analisis transitorio del inversor
 - Simulación de un inversor CMOS, utilizando transistores NMOS y PMOS con geometría especificada. La entrada es un pulso que alterna entre 0 y 1V con ciertos tiempos de subida y bajada, mientras que la salida refleja el comportamiento de un inversor. El análisis transitorio se realiza a lo largo de 80ps con un paso de 0.1ps
 
-![alt text](inversor_mas_grafica.png)
+<div style="text-align: center;">
+  <img src="img/inversor_mas_grafica.png" alt="Descripción de la imagen" />
+  <p>Gráfica de un inversor.</p>
+</div>
 
 ## Ejemplo 4 - sección 8.2.4 Subcircuitos y mediciones
