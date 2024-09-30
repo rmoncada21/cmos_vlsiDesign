@@ -24,7 +24,7 @@ $$
 
 - Un inversor con **FO4 (fanout de 4)** tiene un retardo de **$5\tau$**.
 
-### Componentes del Retardo
+**Componentes del Retardo**
 
 El retardo de una compuerta tiene dos componentes principales:
 
@@ -39,7 +39,7 @@ El retardo de una compuerta tiene dos componentes principales:
 
 ### a.2 Dependencia de la capacitancia en el diseño
 
-En un diseño de circuitos, los nodos de difusión se comparten entre transistores para reducir la capacitancia de difusión. Los nodos de difusión no contactados entre transistores en serie tienen menos capacitancia que los contactados. Para estimar capacitancias antes de completar el diseño, se asume difusión no contactada entre transistores en serie y difusión contactada en otros nodos.
+En el diseño de circuitos, los nodos de difusión se comparten entre transistores para reducir la capacitancia de difusión. Los nodos de difusión no contactados entre transistores en serie tienen menos capacitancia que los contactados. Para estimar capacitancias antes de completar el diseño, se asume difusión no contactada entre transistores en serie y difusión contactada en otros nodos.
 
 La técnica de **"folding"** (plegado) reduce la capacitancia de difusión dividiendo transistores anchos en dispositivos paralelos más pequeños, disminuyendo el área de difusión y, por ende, la capacitancia parasitaria. Los transistores anchos generalmente se "pliegan" para mejorar el rendimiento y ajustarse mejor a celdas estándar con menor resistencia en las líneas de polisilicio. Además, en procesos nanométricos (45 nm y menores), los transistores suelen tener limitaciones de diseño para mejorar la fabricación y reducir la variabilidad.
 
@@ -54,12 +54,14 @@ La técnica de **"folding"** (plegado) reduce la capacitancia de difusión divid
   <p>Estilos de diseño convencional y folded.</p>
 </div>
 
+---
+
 ## b) Modelo de retardo lineal 
 
 **Modelo de Retardo RC**
 
-- El modelo de retardo RC indica que el retardo es una función lineal del fanout de una compuerta. El análisis de retardo se simplifica aún mas caracterizando una compuerta por la pendiente y el intercepto en $y$ de esta función.
-- En general, el **retardo normalizado** $d$ de una compuerta se puede expresar como:
+- El modelo de retardo RC indica que el retardo es una función lineal del fanout de una compuerta. El análisis de retardo se simplifica aún mas caracterizando una compuerta por la pendiente y la intercepción en $y$ de esta función.
+- En general, el **retardo normalizado $d$** de una compuerta se puede expresar como:
   $$
   d = f + p 
   $$
@@ -74,12 +76,11 @@ La técnica de **"folding"** (plegado) reduce la capacitancia de difusión divid
   f = g \cdot h
   $$
   donde:
-  - $g$ es el **esfuerzo lógico**. Por ejemplo, un inversor tiene un esfuerzo lógico de 1. Las compuertas más complejas tienen esfuerzos lógicos mayores, lo que indica que tardan más en conducir un fanout dado.
-  - Un ejemplo es el esfuerzo lógico de la compuerta NAND de 3 entradas, que es \(5/3\).
+  - $g$ es el **esfuerzo lógico**.
 
 **Esfuerzo Eléctrico**
 
-- Una compuerta que conduce $h$ copias idénticas de sí misma tiene un **fanout** o **esfuerzo eléctrico** $b$, que se puede calcular como:
+- Una compuerta que conduce $h$ copias idénticas de sí misma tiene un **fanout** o **esfuerzo eléctrico $h$**, que se puede calcular como:
   $$
   h = \frac{C_{out}}{C_{in}}
   $$
@@ -93,7 +94,7 @@ La técnica de **"folding"** (plegado) reduce la capacitancia de difusión divid
 
 El esfuerzo lógico de una compuerta se define como la razón entre la capacitancia de entrada de la compuerta y la capacitancia de entrada de un inversor que puede entregar la misma corriente de salida. 
 
-- Equivalentemente, el esfuerzo lógico indica cuánto peor es una compuerta para producir corriente de salida en comparación con un inversor.
+- Equivalentemente, el esfuerzo lógico indica cuán peor es una compuerta para producir corriente de salida en comparación con un inversor.
 
 - El esfuerzo lógico se puede medir en simulación a partir de gráficos de retraso vs fanout como la razón entre la pendiente del retraso de la compuerta y la pendiente del retraso de un inversor. 
 
@@ -118,11 +119,141 @@ Ejemplo:
 - `inv_1x:` inversor de una unidad
 - `inv_8x:` inversor de ocho veces el tamaña de la unidad.
 
-### b.5 Extracción de esfuerzos lógicos de los datasheet
+<!-- ### b.5 Extracción de esfuerzos lógicos de los datasheet -->
 
+---
 
 ## c) Esfuerzo lógico de rutas/caminos
 
+El **método de Esfuerzo Lógico** es una herramienta eficaz que permite optimizar la velocidad de los circuitos lógicos. Este enfoque permite seleccionar la mejor topología y el número adecuado de etapas lógicas para una función específica, evitando así el proceso ineficiente de "simular y ajustar". En lugar de depender de simulaciones iterativas, el método proporciona un análisis que estima el número óptimo de etapas, el retraso mínimo posible y los tamaños adecuados de las compuertas para lograr dicho retraso.
+
+Este método es especialmente útil porque se basa en un **modelo de retraso lineal**, lo que lo convierte en una técnica rápida y accesible. Al ofrecer predicciones precisas sobre el comportamiento del circuito, permite a los diseñadores optimizar los diseños sin necesidad de dedicar tiempo a simulaciones largas y ajustes constantes.
+
 ### c.1 Retrasos en conexiones multietapa lógicas
 
-### c.2 Escogiendo el mejor números de etapas 
+- **$G$: Esfuerzo lógico de camino**. Se expresa como el producto de los esfuerzos lógicos de cada etapa a lo largo del camino:
+
+$$
+G = \prod{g_{i}}
+$$
+
+- **$H$: Esfuerzo eléctrico del camino**. Se define como la relación entre la capacitancia de salida que el camino debe manejar y la capacitancia de entrada presentada por el camino:
+
+$$
+H = \frac{C_{out}(path)}{C_{in}(path)}
+$$
+
+- **$F$: Esfuerzo total de la trayectoria**. Es el producto de los esfuerzos lógicos y eléctricos de cada etapa. El esfuerzo de una sola etapa se define como $f = gh$:
+
+$$
+F = \prod{f_{i}} = \prod{g_{i}h_{i}}
+$$
+
+- **$b$: Esfuerzo de ramificación**. Es la razón entre la capacitancia total vista por una etapa y la capacitancia en la trayectoria:
+
+$$
+b = \frac{C_{on}(path) + C_{off}(path)}{C_{on}(path)}
+$$
+
+- **$B$: Esfuerzo de ramificación de la trayectoria**. Se obtiene como el producto de los esfuerzos de ramificación entre las distintas etapas:
+
+$$
+B = \prod{b_{i}}
+$$
+
+- **$F$: Esfuerzo lógico de la trayectoria completa**. Es el producto de los esfuerzos lógicos, eléctricos y de ramificación a lo largo de la trayectoria:
+
+$$
+F = GBH
+$$
+
+- **$D$: Retardo de una red multietapa**. El retardo total de la trayectoria $D$ es la suma de los retardos de cada etapa. Puede expresarse como la suma del retardo del esfuerzo de la trayectoria $D_{F}$ y el retardo parásito $P$:
+
+$$
+D = \sum{d_{i}} = D_{F} + P
+$$
+
+El retardo del esfuerzo de la trayectoria se expresa como:
+
+$$
+D_{F} = \sum{f_{i}}
+$$
+
+El retardo parásito de la trayectoria es:
+
+$$
+P = \sum{P_{i}}
+$$
+
+**Si una trayectoria tiene N etapas y cada una lleva el mismo esfuerzo, ese esfuerzo es**:
+
+$$
+\hat{f} = g_{i}h_{i} = F^{\frac{1}{N}}
+$$
+
+Por lo tanto, el retardo mínimo posible de una trayectoria con \(N\) etapas, un esfuerzo de trayectoria \(F\) y un retardo parásito \(P\) es:
+
+$$
+D = N F^{\frac{1}{N}} + P
+$$
+
+Esto muestra que el retardo mínimo de la trayectoria puede estimarse conociendo solo el número de etapas, el esfuerzo de la trayectoria y los retardos parásitos, sin la necesidad de asignar tamaños específicos a los transistores.
+
+**Fórmula para la transformación de capacitancia**
+La fórmula para encontrar la mejor capacitancia de entrada para una compuerta, dada la capacitancia de salida que impulsa, es:
+
+$$
+C_{in} = \frac{C_{out_{i}} g_{i}}{\hat{f}}
+$$
+
+### c.2 Selección del mejor número de etapas
+
+El número óptimo de etapas para minimizar el retardo de una trayectoria puede determinarse a través del análisis del esfuerzo lógico, lo que garantiza un equilibrio óptimo entre las etapas y minimiza el retardo total del sistema.
+
+<div style="text-align: center;">
+  <img src="img/stages_number.png" alt="img2" />
+  <p>Número de etapas.</p>
+</div>
+
+En el bloque lógico mostrado en la figura anterior, el camino tiene $n_{1}$ etapas y un esfuerzo de camino total $F$. Para optimizar el retardo, se puede considerar agregar $N-n_{1}$ inversores al final del camino, incrementando el número total de etapas a $N$. Aunque estos inversores adicionales no alteran el esfuerzo lógico del camino, sí introducen retraso parasitario.
+
+Para lograr el menor retardo posible, el esfuerzo por etapa $p$ debe aproximarse a un valor de 3.59. 
+
+- $\hat{N}$ *El número óptimo de etapas*, se puede calcular utilizando la siguiente expresión:
+
+$$
+\hat{N} = \log_{p} F
+$$
+
+
+#### Optimización del número de etapas
+
+Como regla general, se pueden agregar inversores al final de un camino sin cambiar su función (aunque posiblemente alterando la polaridad), con el objetivo de reducir el retardo total. Para calcular cuántos inversores adicionales se deben agregar,  se diferencia la ecuación del retardo con respecto a $N$ y se establece el resultado igual a cero, lo que permite resolver el número óptimo de etapas, $\hat{N}$.
+
+El resultado puede expresarse de manera más compacta utilizando la siguiente fórmula, que involucra el término parasitario $\rho$:
+
+$$
+p_{inv} + \rho(1 - \ln(\rho))
+$$
+
+
+#### Solución numérica y mejor número de etapas
+
+Resolviendo numéricamente para $p_{inv} = 1$, se encuentra que el esfuerzo por etapa óptimo es $p = 3.59$. De esta forma, el retardo mínimo de un camino se logra con un número óptimo de etapas dado por:
+
+$$
+\hat{N}= \log_{p} F
+$$
+
+#### Sensibilidad al número de etapas
+
+No solo es importante conocer el número óptimo de etapas, sino también la **sensibilidad** del retardo al uso de un número diferente de etapas. La siguiente figura muestra cómo el retardo aumenta cuando el número de etapas se desvía del óptimo. En esta figura, el eje $x$ representa la relación entre el número real de etapas y el número ideal, mientras que el eje $y$ muestra la relación entre el retardo real y el retardo mínimo posible.
+
+Es relevante destacar que la curva es bastante plana alrededor del número óptimo de etapas, lo que significa que el retardo se mantiene dentro del 15% del mejor posible si el número de etapas está dentro del rango de $2/3$ a $3/2$ veces el número óptimo. En otras palabras, el esfuerzo por etapa puede estar en el rango de $2.4$ a $6$ sin penalizar severamente el rendimiento.
+
+Por esta razón, un esfuerzo por etapa de 4 es una elección conveniente y simplifica el proceso de selección del número de etapas. Este esfuerzo proporciona retardos dentro del 2% del mínimo posible, incluso si $p_{inv}$ varía en el rango de 0.7 a 2.5. Esto también explica por qué un inversor con un "fanout de 4" es representativo del retardo lógico típico.
+
+<div style="text-align: center;">
+  <img src="img/sensibilidad.png" alt="img2" />
+  <p>Sensibilidad del retraso de numero de compuertas.</p>
+</div>
