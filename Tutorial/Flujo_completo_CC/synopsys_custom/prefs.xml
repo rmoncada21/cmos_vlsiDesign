@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="dbExportNetlistViewSearchList" value="auCdl cmos_sch schematic"/>
+	<pref name="dbExportStreamLayerMapFile" value="./strmInOut.layertable"/>
+	<pref name="dbImportStreamLayerMapFile" value="./strmInOut.layertable"/>
+	<pref name="dbViewWordWrap" value="true"/>
+	<pref name="deActiveObjectToolbarProc" value="printInfo"/>
+	<pref name="deCrossCheckViews" value="cmos_sch schematic symbol hspice verilog veriloga"/>
+	<pref name="dmNewLibTechLib" value="TECH_XT018"/>
+	<pref name="dmNewLibTechType" value="lib"/>
+	<pref name="giShowFrameTabs" value="false"/>
+	<pref name="leAutoAbutment" value="true"/>
+	<pref name="leAutoHaloOverlap" value="true"/>
+	<pref name="leDrawInstPins" value="true"/>
+	<pref name="leDrawPinLabel" value="term"/>
+	<pref name="leInstLabel" value="master"/>
+	<pref name="lePropertyEditorParameterFilter" value="auCdl auLvs hspiceD"/>
+	<pref name="leUserDefinedConstraintGroup" value="virtuosoDefaultExtractorSetup"/>
+	<pref name="lxLeftRightPinLPP" value="MET1 drawing"/>
+	<pref name="lxMFactorNames" value="m M mTotal"/>
+	<pref name="lxSplit" value="false"/>
+	<pref name="lxTopBottomPinLPP" value="MET1 drawing"/>
+	<pref name="nlCDLGenerateEmptySubckts" value="true"/>
+	<pref name="saHSPICEEnvOptsSwitchViewList" value="hspice hspiceD schematic cmos_sch spice veriloga"/>
+	<pref name="saHSPICEModelsFiles" value="{./Hspice/lp5mos/xt018.lib tm} {./Hspice/lp5mos/param.lib 3s} {./Hspice/lp5mos/config.lib default}"/>
+	<pref name="saSimulator" value="HSPICE"/>
+	<pref name="seSchPropertyEditorParameterFilter" value="auCdl auLvs hspiceD veriloga"/>
+	<pref name="seViewSearchList" value="cmos_sch schematic symbol"/>
+	<pref name="xtCDLGlobalSearchList" value="auCdl cmos_sch schematic"/>
+	<pref name="xtCDLViewSearchList" value="auCdl cmos_sch schematic"/>
+	<pref name="xtCalibreNetlistExportNetlisterEnabled" value="true"/>
+	<pref name="xtCalibreNetlistExportStopList" value="auCdl"/>
+	<pref name="xtCalibreNetlistExportViewList" value="auCdl cmos_sch schematic"/>
+	<pref name="xtDRCICVControlVars" value="
+
+VAR_ANT_RATIO {
+    description {Additional Antenna Check}
+    value false 
+    default false
+    group 1.0.VAR_ANT_RATIO
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+VAR_R2P1 {
+    description {R2P1:     ratio POLY1  area to connected GATE area}
+    value 200 
+    default 200
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM1P1 {
+    description {RxM1P1:   ratio MET1   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM2P1 {
+    description {RxM2P1:   ratio MET2   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM3P1 {
+    description {RxM3P1:   ratio MET3   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM4P1 {
+    description {RxM4P1:   ratio MET4   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM5P1 {
+    description {RxM5P1:   ratio MET5   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM6P1 {
+    description {RxM6P1:   ratio MET6   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxMTP1 {
+    description {RxMTP1:   ratio METTP  area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxMLP1 {
+    description {RxMLP1:   ratio METTPL area to connected GATE area}
+    value 200 
+    default 200
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1CT {
+    description {R1CT:     ratio CONT   area to connected GATE area}
+    value 10 
+    default 10
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V1 {
+    description {R1V1:     ratio VIA1   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V2 {
+    description {R1V2:     ratio VIA2   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V3 {
+    description {R1V3:     ratio VIA3   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V4 {
+    description {R1V4:     ratio VIA4   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V5 {
+    description {R1V5:     ratio VIA5   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1VT {
+    description {R1VT:     ratio VIATP  area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1VL {
+    description {R1VL:     ratio VIATPL area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+DUMMY_FILL {
+    description {DUMMY_FILL:            activate the virtual dummy pattern generation}
+    value false 
+    default false
+    group 2.0.DUMMY_FILL
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+FILL4MACRO {
+    description {FILL4MACRO:            generate the dummy shapes inside a reduce area only}
+    value false 
+    default false
+    group 2.1.Dummy_Switch
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+DUMMY_FILL_RESULTS {
+    description {DUMMY_FILL_RESULTS:    activate visualization of the generated shapes as DRC output dummy_***_dyf}
+    value false 
+    default false
+    group 2.1.Dummy_Switch
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+DENSITY_LAY {
+    description {DENSITY_LAY:          activate the DIFF, POLY1 and METAL density checks}
+    value false 
+    default false
+    group 3.0.DENSITY_CHECKS
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+POPPING {
+    description {POPPING:              activate the popping check}
+    value false 
+    default false
+    group 4.0.POPPING_PREVENTION
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+PIMIDE {
+    description {PIMIDE:               activate the PIMIDE check}
+    value false 
+    default false
+    group 5.0.PIMIDE_CHECKS
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+"/>
+	<pref name="xtDRCICVIncludePaths" value="./ICValidator"/>
+	<pref name="xtDRCICVRunsetFile" value="./ICValidator/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.rs"/>
+	<pref name="xtDrcMIMAntICVIncludePaths" value="./AntennaIcv"/>
+	<pref name="xtDrcMIMAntICVOptions" value="-oa_dm5"/>
+	<pref name="xtDrcMIMAntICVRunsetFile" value="./AntennaIcv/xx018_xx43_MET4_METMID_METTHK.rs"/>
+	<pref name="xtLPEStarRunsetFile" value="./StarRC/star_cmd"/>
+	<pref name="xtLPEStarTcadGrdFile" value="./StarRC/xt018_xx43_MET4_METMID_METTHK_typ.nxtgrd"/>
+	<pref name="xtLVSICVControlVars" value="
+
+VAR_ANT_RATIO {
+    description {Additional Antenna Check}
+    value false 
+    default false
+    group 1.0.VAR_ANT_RATIO
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+VAR_R2P1 {
+    description {R2P1:     ratio POLY1  area to connected GATE area}
+    value 200 
+    default 200
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM1P1 {
+    description {RxM1P1:   ratio MET1   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM2P1 {
+    description {RxM2P1:   ratio MET2   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM3P1 {
+    description {RxM3P1:   ratio MET3   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM4P1 {
+    description {RxM4P1:   ratio MET4   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM5P1 {
+    description {RxM5P1:   ratio MET5   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxM6P1 {
+    description {RxM6P1:   ratio MET6   area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxMTP1 {
+    description {RxMTP1:   ratio METTP  area to connected GATE area}
+    value 400 
+    default 400
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_RxMLP1 {
+    description {RxMLP1:   ratio METTPL area to connected GATE area}
+    value 200 
+    default 200
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1CT {
+    description {R1CT:     ratio CONT   area to connected GATE area}
+    value 10 
+    default 10
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V1 {
+    description {R1V1:     ratio VIA1   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V2 {
+    description {R1V2:     ratio VIA2   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V3 {
+    description {R1V3:     ratio VIA3   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V4 {
+    description {R1V4:     ratio VIA4   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1V5 {
+    description {R1V5:     ratio VIA5   area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1VT {
+    description {R1VT:     ratio VIATP  area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+VAR_R1VL {
+    description {R1VL:     ratio VIATPL area to connected GATE area}
+    value 20 
+    default 20
+    group 1.1.Antenna_Check_Value
+    mutable true
+    visible true 
+    scope preProc 
+    valueType string
+}
+
+FloatingGate {
+    description {FloatingGate:         find gates not having path to power/ground and are not connected to labeled nets}
+    value false 
+    default false
+    group 6.0.FloatingGate
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+FloatingWell {
+    description {FloatingWell:         find well structures not having path to power/ground and are not connected to labeled nets}
+    value false 
+    default false
+    group 7.0.FloatingWell
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+ParaDioAsDevDio {
+    description {ParaDioAsDevDio:      Special diodes extraction}
+    value false 
+    default false
+    group 8.0.SPECIAL_DIODE_EXTRACTION
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+DTINBOXCAP {
+    description {DTINBOXCAP:           activate DTI and Box capacitor extraction}
+    value false 
+    default false
+    group 9.0.DTI_AND_BOX_CAP_EXTRACTION
+    mutable true
+    visible true 
+    scope preProc 
+    valueType bool 
+}
+
+"/>
+	<pref name="xtLVSICVIncludePaths" value="./ICValidator ./StarRC"/>
+	<pref name="xtLVSICVRunsetFile" value="./StarRC/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.rs"/>
+	<pref name="xtPVLayerMapFile" value="./strmInOut.layertable"/>
+</preferences>
+
