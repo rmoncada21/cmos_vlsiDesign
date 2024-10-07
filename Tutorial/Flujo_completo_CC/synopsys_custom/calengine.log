@@ -1,0 +1,64 @@
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.14MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.14MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.18s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.18s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.18s -*-
+sx_set_data_directory {/home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.49MB -*-
+  -*- CPU Time :     0.18s -*-
+[19:32:45.370] I| Setup simulation complete: 
+    results directory: /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results 
+    post database directory: /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results
+   *** loading waveform file /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/resultsMap.xml ... ***
+   *** loading waveform file /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/inter.fsdb ... ***
+   *** Loading waveform file finished ***
+   *** Evaluating Equations... ***
+Nominal: Start to call cckDBHandler to create handler
+Nominal: Start to integrate database
+Start to post process[19:32:45.420] I| Start generating post results database...
+[19:32:45.420] I| Clear post result data in database.
+[19:32:45.440] I| Create Post WDF File ...S_default/FineSimProVCS/nominal/results/post1.wave
+[19:32:45.440] I| Generate post results database complete.
+sx_exit
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.14MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.14MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.17s -*-
+sx_set_data_directory {/home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.49MB -*-
+  -*- CPU Time :     0.18s -*-

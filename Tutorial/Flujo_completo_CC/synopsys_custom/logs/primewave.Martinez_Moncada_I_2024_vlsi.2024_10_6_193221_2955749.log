@@ -1,0 +1,53 @@
+[19:32:23.78] /o 
+              /c                    PrimeWave Design Environment
+              /c 
+              /c            Version U-2023.03-SP2 for linux64 - Aug 24, 2023 00:53:01 
+              /c 
+              /c                     Copyright (c) 2000 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9117514 compiled on Wed Aug 23 10:56:58 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/bin/primewave_st -gui 0 -log pw_shell_session0_job2 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/lib.defs
+              /c Execution time: Sun Oct  6 19:32:21 2024
+              /c Host: redhat003
+              /c 
+[19:32:23.80] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[19:32:23.80] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:32:23.80] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[19:32:26.64] /r giShowFrameTabs true
+[19:32:26.64] /r giWindowId 1
+[19:32:26.64] /r giWindowGeometry 1040x800
+[19:32:26.69] /i ::sa::_backgroundSaeShell::signalProcessReady 1728264739 2856214
+[19:32:26.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 7
+[19:32:46.93] /i ::wf::viewerExited
+[19:37:27.89] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:37:27.99] /i ::sa::_backgroundSaeShell::parentRunning
+[19:37:27.99] /o false
+[19:37:28.49] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[19:37:28.49] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[19:37:28.49] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[19:42:29.08] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:42:29.19] /i ::sa::_backgroundSaeShell::parentRunning
+[19:42:29.19] /o false
+[19:47:30.29] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:47:30.39] /i ::sa::_backgroundSaeShell::parentRunning
+[19:47:30.39] /o false
+[19:52:31.49] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:52:31.59] /i ::sa::_backgroundSaeShell::parentRunning
+[19:52:31.59] /o false
+[19:57:32.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[19:57:32.79] /i ::sa::_backgroundSaeShell::parentRunning
+[19:57:32.79] /o false
