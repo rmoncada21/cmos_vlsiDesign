@@ -13,3 +13,7 @@ db::setAttr geometry -of [gi::getFrames 1] -value 1014x710+5+52
 ::sa::_backgroundSaeShell::parentRunning
 ::sa::_backgroundSaeShell::parentRunning
 ::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning

@@ -38,3 +38,4 @@ wv_select_menu_item {Custom WaveView} {} {File.Save Session}
 wv_move_window {FileDialog} {} 955 359
 wv_move_window {FileDialog} {} 959 350
 wv_select_dialog {FileDialog} 
+wv_close_dialog {FileDialog} 
