@@ -30,7 +30,7 @@ El código del proceso a usar es 1243. El módulo fundamental es MOS de baja pot
 
 <div style="text-align: center;">
   <img src="img/conf_bibliotecas_io.png" alt="Descripción de la imagen" />
-  <p>.</p>
+  <p>.</p>;
 </div>
 
 <div style="text-align: center;">
@@ -54,3 +54,78 @@ El código del proceso a usar es 1243. El módulo fundamental es MOS de baja pot
   <img src="img/conf_biblioteca.png" alt="Descripción de la imagen" />
   <p>.</p>
 </div>
+
+## 2. Diseño comportamental
+
+### 2.1 Descripción en Verilog
+
+#### File->New->CellView
+
+<div style="text-align: center;">
+  <img src="img/conf_biblioteca.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+<div style="text-align: center;">
+  <img src="img/comp_verilog_code.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+### 2.2 CellView
+
+#### Design->New CellView-> From CellView
+
+<div style="text-align: center;">
+  <img src="img/comp_generate_cellView.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+<div style="text-align: center;">
+  <img src="img/comp_NAND2X1.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+### 2.3 Testbench
+
+<div style="text-align: center;">
+  <img src="img/comp_testbench.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+
+<div style="text-align: center;">
+  <img src="img/comp_testbench_symbol.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+### 2.4 Esquemático para pruebas
+
+<div style="text-align: center;">
+  <img src="img/comp_testbench.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+
+<div style="text-align: center;">
+  <img src="img/sch_stimlus.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+### 2.5 Simulación 
+
+<div style="text-align: center;">
+  <img src="img/sim_primewave.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+<div style="text-align: center;">
+  <img src="img/sim_state.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+
+<div style="text-align: center;">
+  <img src="img/sim_waveviewer.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
