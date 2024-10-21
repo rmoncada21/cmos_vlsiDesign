@@ -129,3 +129,15 @@ El código del proceso a usar es 1243. El módulo fundamental es MOS de baja pot
   <p>.</p>
 </div>
 
+## 3. Diseño a nivel de esquemático
+
+| Transistor | L       | W        |
+|------------|---------|----------|
+| NMOS (ne)  | 180 nm  | 220 nm   |
+| PMOS (pe)  | 180 nm  | 440 nm   |
+
+
+<div style="text-align: center;">
+  <img src="img/esq_ne.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
