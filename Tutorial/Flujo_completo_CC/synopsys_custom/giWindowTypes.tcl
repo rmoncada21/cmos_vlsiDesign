@@ -1,5 +1,5 @@
 set wt [gi::getWindowTypes giConsole]
-db::setAttr wt.geometry -value "600x291+644+620"
+db::setAttr wt.geometry -value "600x300+104+658"
 db::setAttr wt.maximized -value "false"
 set wt [gi::getWindowTypes deBookmarkManager]
 db::setAttr wt.geometry -value "530x400"

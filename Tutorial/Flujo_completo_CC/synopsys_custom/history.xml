@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Sun Oct  6 13:42:30 2024
+<!-- created by Custom Compiler (TM), build #, on Sat Oct 12 20:12:34 2024
 -->
 <synopsysFile version="1.1" name="synopsysRecentFiles">
-        <recentFiles/>
+        <recentFiles>
+                <file library="basic_cells" view="verilog" file="verilogText" cell="nand2x1" mode="write"/>
+        </recentFiles>
 </synopsysFile>

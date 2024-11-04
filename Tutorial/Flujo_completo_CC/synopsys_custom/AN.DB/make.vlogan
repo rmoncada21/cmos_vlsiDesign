@@ -1,12 +1,12 @@
 
 VLOGAN	= vlogan
-VLOGAN_OPT	= -kdb +warn=all +v2k -full64 +incdir+/tmp/custom_compiler_2856214_DrGX4Q+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/basic_cells/stimulus_nand2x1/verilog+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/basic_cells/stimulus_nand2x1/verilog+/mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/samples/verilogAMS/include -full64
+VLOGAN_OPT	= -kdb +warn=all +v2k -full64 +incdir+/tmp/custom_compiler_133356_FjFktR+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/basic_cells/nand2x1/verilog+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/basic_cells/nand2x1/verilog+/mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/auxx/samples/verilogAMS/include -full64
 
-all :		_VCSgd_8mY70c_1.db \
+all :		_VCSgd_1Bw7Sc_1.db \
 
 
 
-_VCSgd_8mY70c_1.db :	/tmp/custom_compiler_2856214_DrGX4Q/teText_93YmYi 
-		${VLOGAN}  ${VLOGAN_OPT} /tmp/custom_compiler_2856214_DrGX4Q/teText_93YmYi
+_VCSgd_1Bw7Sc_1.db :	/tmp/custom_compiler_133356_FjFktR/teText_szMJPq 
+		${VLOGAN}  ${VLOGAN_OPT} /tmp/custom_compiler_133356_FjFktR/teText_szMJPq
 
 
