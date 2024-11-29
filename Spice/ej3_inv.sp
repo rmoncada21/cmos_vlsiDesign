@@ -6,7 +6,7 @@
 **---------------------------------------------------------
 .param SUPPLY=1.0
 .option scale=25n
-.include '../models/ibm065/models.sp'
+.include 'libro_models.sp'
 .temp 70
 .option post
 

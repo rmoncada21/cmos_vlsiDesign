@@ -4,7 +4,7 @@
 **---------------------------------------------------------
 *Parameters and models
 **---------------------------------------------------------
-.include '../models/ibm065/models.sp'
+.include 'libro_models.sp'
 .temp 70
 .option post
 
