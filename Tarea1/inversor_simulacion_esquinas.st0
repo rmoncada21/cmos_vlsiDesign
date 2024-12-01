@@ -1,0 +1,166 @@
+****** PrimeSim HSPICE -- U-2023.03-SP2 linux64 (Aug 24 2023 8388748) ******
+Input File: inversor_simulacion_esquinas.sp
+lic:
+lic: FLEXlm: SDK_12.11.9.1
+lic: USER:   Martinez_Moncada_I_2024_vlsi HOSTNAME: redhat003
+lic: HOSTID: 7f0100               PID:      688167
+lic: Using FLEXlm license file:
+lic: 27020@172.21.99.41
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 08-sep-2025/2024.09
+lic: 1(in_use)/100(total) FLOATING license(s) on SERVER 27020@172.21.99.41
+lic:
+
+ init: begin read circuit files, cpu clock= 1.16E+00
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/ad
+       option search = /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/cc_
+                         files/Flujo_completo_CC/Hspice/lp5mos
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/behave
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/bjt
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/burr_brn
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/comlinear
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/dio
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/fet
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/lin_tech
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/pci
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/signet
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/ti
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/tline
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/xilinx
+       option parhier = local
+       option post
+ init: end read circuit files, cpu clock= 1.17E+00 peak memory=     519 mb
+ init: begin check errors, cpu clock= 1.17E+00
+ init: end check errors, cpu clock= 1.18E+00 peak memory=     519 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.18E+00
+       establish matrix -- done, cpu clock= 1.18E+00 peak memory=     519 mb
+       re-order matrix -- done, cpu clock= 1.18E+00 peak memory=     519 mb
+ init: end setup matrix, cpu clock= 1.19E+00 peak memory=     519 mb
+ sweep: voltage         voltage1         begin, #sweeps =  31
+ voltage: valim           =    1.50E+00
+ output: inversor_simulacion_esquinas.sw
+ sweep: dc dc1    begin, #sweeps=  37 cpu clock= 1.19E+00
+ sweep: dc dc1    end, cpu clock= 1.19E+00 peak memory=     519 mb
+ voltage: valim           =    1.55E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc2    begin, #sweeps=  37 cpu clock= 1.19E+00
+ sweep: dc dc2    end, cpu clock= 1.19E+00 peak memory=     519 mb
+ voltage: valim           =    1.60E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc3    begin, #sweeps=  37 cpu clock= 1.19E+00
+ sweep: dc dc3    end, cpu clock= 1.19E+00 peak memory=     519 mb
+ voltage: valim           =    1.65E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc4    begin, #sweeps=  37 cpu clock= 1.19E+00
+ sweep: dc dc4    end, cpu clock= 1.20E+00 peak memory=     519 mb
+ voltage: valim           =    1.70E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc5    begin, #sweeps=  37 cpu clock= 1.20E+00
+ sweep: dc dc5    end, cpu clock= 1.20E+00 peak memory=     519 mb
+ voltage: valim           =    1.75E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc6    begin, #sweeps=  37 cpu clock= 1.20E+00
+ sweep: dc dc6    end, cpu clock= 1.20E+00 peak memory=     519 mb
+ voltage: valim           =    1.80E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc7    begin, #sweeps=  37 cpu clock= 1.20E+00
+ sweep: dc dc7    end, cpu clock= 1.20E+00 peak memory=     519 mb
+ voltage: valim           =    1.85E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc8    begin, #sweeps=  37 cpu clock= 1.20E+00
+ sweep: dc dc8    end, cpu clock= 1.21E+00 peak memory=     519 mb
+ voltage: valim           =    1.90E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc9    begin, #sweeps=  37 cpu clock= 1.21E+00
+ sweep: dc dc9    end, cpu clock= 1.21E+00 peak memory=     519 mb
+ voltage: valim           =    1.95E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc10   begin, #sweeps=  37 cpu clock= 1.21E+00
+ sweep: dc dc10   end, cpu clock= 1.21E+00 peak memory=     519 mb
+ voltage: valim           =    2.00E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc11   begin, #sweeps=  37 cpu clock= 1.21E+00
+ sweep: dc dc11   end, cpu clock= 1.21E+00 peak memory=     519 mb
+ voltage: valim           =    2.05E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc12   begin, #sweeps=  37 cpu clock= 1.21E+00
+ sweep: dc dc12   end, cpu clock= 1.21E+00 peak memory=     519 mb
+ voltage: valim           =    2.10E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc13   begin, #sweeps=  37 cpu clock= 1.21E+00
+ sweep: dc dc13   end, cpu clock= 1.22E+00 peak memory=     519 mb
+ voltage: valim           =    2.15E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc14   begin, #sweeps=  37 cpu clock= 1.22E+00
+ sweep: dc dc14   end, cpu clock= 1.22E+00 peak memory=     519 mb
+ voltage: valim           =    2.20E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc15   begin, #sweeps=  37 cpu clock= 1.22E+00
+ sweep: dc dc15   end, cpu clock= 1.22E+00 peak memory=     519 mb
+ voltage: valim           =    2.25E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc16   begin, #sweeps=  37 cpu clock= 1.22E+00
+ sweep: dc dc16   end, cpu clock= 1.22E+00 peak memory=     519 mb
+ voltage: valim           =    2.30E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc17   begin, #sweeps=  37 cpu clock= 1.22E+00
+ sweep: dc dc17   end, cpu clock= 1.23E+00 peak memory=     519 mb
+ voltage: valim           =    2.35E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc18   begin, #sweeps=  37 cpu clock= 1.23E+00
+ sweep: dc dc18   end, cpu clock= 1.23E+00 peak memory=     519 mb
+ voltage: valim           =    2.40E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc19   begin, #sweeps=  37 cpu clock= 1.23E+00
+ sweep: dc dc19   end, cpu clock= 1.23E+00 peak memory=     519 mb
+ voltage: valim           =    2.45E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc20   begin, #sweeps=  37 cpu clock= 1.23E+00
+ sweep: dc dc20   end, cpu clock= 1.23E+00 peak memory=     519 mb
+ voltage: valim           =    2.50E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc21   begin, #sweeps=  37 cpu clock= 1.23E+00
+ sweep: dc dc21   end, cpu clock= 1.24E+00 peak memory=     519 mb
+ voltage: valim           =    2.55E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc22   begin, #sweeps=  37 cpu clock= 1.24E+00
+ sweep: dc dc22   end, cpu clock= 1.24E+00 peak memory=     519 mb
+ voltage: valim           =    2.60E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc23   begin, #sweeps=  37 cpu clock= 1.24E+00
+ sweep: dc dc23   end, cpu clock= 1.24E+00 peak memory=     519 mb
+ voltage: valim           =    2.65E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc24   begin, #sweeps=  37 cpu clock= 1.24E+00
+ sweep: dc dc24   end, cpu clock= 1.24E+00 peak memory=     519 mb
+ voltage: valim           =    2.70E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc25   begin, #sweeps=  37 cpu clock= 1.24E+00
+ sweep: dc dc25   end, cpu clock= 1.24E+00 peak memory=     519 mb
+ voltage: valim           =    2.75E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc26   begin, #sweeps=  37 cpu clock= 1.24E+00
+ sweep: dc dc26   end, cpu clock= 1.25E+00 peak memory=     519 mb
+ voltage: valim           =    2.80E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc27   begin, #sweeps=  37 cpu clock= 1.25E+00
+ sweep: dc dc27   end, cpu clock= 1.25E+00 peak memory=     519 mb
+ voltage: valim           =    2.85E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc28   begin, #sweeps=  37 cpu clock= 1.25E+00
+ sweep: dc dc28   end, cpu clock= 1.25E+00 peak memory=     519 mb
+ voltage: valim           =    2.90E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc29   begin, #sweeps=  37 cpu clock= 1.25E+00
+ sweep: dc dc29   end, cpu clock= 1.25E+00 peak memory=     519 mb
+ voltage: valim           =    2.95E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc30   begin, #sweeps=  37 cpu clock= 1.25E+00
+ sweep: dc dc30   end, cpu clock= 1.26E+00 peak memory=     519 mb
+ voltage: valim           =    3.00E+00
+ output: inversor_simulacion_esquinas.sw0
+ sweep: dc dc31   begin, #sweeps=  37 cpu clock= 1.26E+00
+ sweep: dc dc31   end, cpu clock= 1.26E+00 peak memory=     519 mb
+ sweep: voltage         voltage         1 end
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

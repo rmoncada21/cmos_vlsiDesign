@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Sat Nov 30 18:03:38 2024
+-->
+<synopsysFile version="2.2" name="synopsysWorkspace">
+    <workspace default="1" title="Layout" name="leLayout">
+        <overlay windowType="leLayout"/>
+    </workspace>
+    <workspace default="1" title="Schematic" name="seSchematic">
+        <overlay windowType="seSchematic">
+            <dockArea side="left">
+                <toolbarRow level="0">
+                    <toolbar title="Schematic Capture" before="seEdit" name="seSchSchematicCapture"/>
+                    <toolbar title="Editing" position="60" before="seSchCheck" name="seEdit"/>
+                    <toolbar title="Check" position="92" name="seSchCheck"/>
+                </toolbarRow>
+            </dockArea>
+            <dockArea side="right" size="292 891">
+                <assistantGroup>
+                    <assistant show="false" floating="false" name="deMarkerBrowser"/>
+                </assistantGroup>
+            </dockArea>
+            <dockArea side="top">
+                <toolbarRow level="0">
+                    <toolbar title="Standard" before="seNavigation" name="seSchStandard"/>
+                    <toolbar title="Navigation" position="263" before="seHierarchy" name="seNavigation"/>
+                    <toolbar title="Hierarchy" position="499" before="seSelection" name="seHierarchy"/>
+                    <toolbar title="Selection" position="531" before="seAnnotation" name="seSelection"/>
+                    <toolbar title="Annotation" position="563" before="seObjectInfo" name="seAnnotation"/>
+                </toolbarRow>
+            </dockArea>
+        </overlay>
+    </workspace>
+    <workspace default="1" title="Library Manager" name="dmLibraryManager">
+        <overlay windowType="dmLibraryManager">
+            <dockArea side="top">
+                <toolbarRow level="0">
+                    <toolbar title="Standard" name="dmLibraryManagerStandard"/>
+                </toolbarRow>
+            </dockArea>
+        </overlay>
+    </workspace>
+    <workspace default="1" title="Text Editor Workspace" name="teWorkspace">
+        <overlay windowType="teText">
+            <dockArea side="right" size="274 471">
+                <assistantGroup>
+                    <assistant floating="false" name="heHierarchyNavigator"/>
+                </assistantGroup>
+            </dockArea>
+            <dockArea side="top">
+                <toolbarRow level="0">
+                    <toolbar title="Standard" before="teHierarchy" name="teStandard"/>
+                    <toolbar title="Hierarchy" position="347" before="teFind" name="teHierarchy"/>
+                    <toolbar title="Find" position="585" name="teFind"/>
+                </toolbarRow>
+            </dockArea>
+        </overlay>
+    </workspace>
+    <workspace default="0" title="Chaining" name="lxChaining">
+        <overlay windowType="lxSymbolicEditor">
+            <dockArea side="left">
+                <assistantGroup>
+                    <assistant length="318" position="452" show="false" floating="false" name="lxSEDSchematicAssistant"/>
+                </assistantGroup>
+                <assistantGroup>
+                    <assistant length="318" position="452" before="lxSEDSchematicAssistant" floating="false" forWorkspace="true" name="lxDevicePanelSDC"/>
+                </assistantGroup>
+            </dockArea>
+        </overlay>
+    </workspace>
+    <workspace default="0" title="Matching" name="lxMatching">
+        <overlay windowType="lxSymbolicEditor">
+            <dockArea side="left">
+                <assistantGroup>
+                    <assistant length="318" position="452" show="false" floating="false" name="lxSEDSchematicAssistant"/>
+                </assistantGroup>
+                <assistantGroup index="0">
+                    <assistant before="lxSEDSchematicAssistant" floating="false" forWorkspace="true" name="lxPatternPanelMDC"/>
+                    <assistant floating="false" forWorkspace="true" name="lxDevicePanelMDC"/>
+                </assistantGroup>
+            </dockArea>
+            <dockArea side="top">
+                <toolbarRow level="0">
+                    <toolbar title="Grid Size" after="lxSelection" forWorkspace="true" name="lxGridSizeMDC"/>
+                </toolbarRow>
+            </dockArea>
+        </overlay>
+    </workspace>
+    <workspace default="0" title="SDL" name="lxSDL">
+        <overlay windowType="leLayout">
+            <menuBar>
+                <menu title="SDL" before="giWindowMenu" remove="false" name="lxSDLMenuLayout">
+                    <action before="lxShowUpdateSchematic" name="lxShowGenerateLayout"/>
+                    <action before="lxPickAndPlace" name="lxShowUpdateSchematic"/>
+                    <action before="lxEstablishCorrespondence" name="lxPickAndPlace"/>
+                    <action before="lxClone" name="lxEstablishCorrespondence"/>
+                    <action before="lxSplitDevice" name="lxClone"/>
+                    <action before="lxSDLMapping" name="lxSplitDevice"/>
+                    <action before="lxApplyPresetParams" name="lxSDLMapping"/>
+                    <action before="lxOptions" name="lxApplyPresetParams"/>
+                    <action before="giSeparator" name="lxOptions"/>
+                    <action before="lxSymbolicEditorLEMenu" name="giSeparator"/>
+                    <action before="lxViaTrackPlanner" name="lxSymbolicEditorLEMenu"/>
+                    <action before="giSeparator" name="lxViaTrackPlanner"/>
+                    <action before="giSeparator" name="lxECOMenuLay"/>
+                    <action before="giSeparator" name="deProbeCascade"/>
+                    <action name="lxLogicalSource"/>
+                </menu>
+            </menuBar>
+            <dockArea side="left">
+                <toolbarRow level="0">
+                    <toolbar title="SDL" forWorkspace="true" name="lxSDLToolbarLayout"/>
+                </toolbarRow>
+                <assistantGroup>
+                    <assistant length="318" position="452" floating="false" forWorkspace="true" name="lxSchematicAssistant"/>
+                </assistantGroup>
+                <assistantGroup>
+                    <assistant length="318" position="452" before="lxSchematicAssistant" floating="false" name="heDesignNavigator"/>
+                </assistantGroup>
+            </dockArea>
+            <dockArea side="right">
+                <assistantGroup index="0">
+                    <assistant show="false" floating="false" forWorkspace="true" name="lxTemplateManager"/>
+                    <assistant show="false" floating="false" forWorkspace="true" name="lxTemplateBrowser"/>
+                </assistantGroup>
+            </dockArea>
+        </overlay>
+        <metadata name="activeTools">
+            <attribute name="lxSDLTool" value="true"/>
+        </metadata>
+    </workspace>
+    <workspace default="0" title="SDL" name="lxSDLseSchematic">
+        <overlay windowType="seSchematic">
+            <menuBar>
+                <menu title="SDL" before="giWindowMenu" remove="false" name="lxSDLMenuSchematic">
+                    <action before="giSeparator" name="lxECOMenuSch"/>
+                    <action before="deProbeCascade" name="giSeparator"/>
+                    <action before="giSeparator" name="deProbeCascade"/>
+                    <action name="lxInitializeFromSchematic"/>
+                </menu>
+            </menuBar>
+        </overlay>
+        <metadata name="activeTools">
+            <attribute name="lxSDLTool" value="true"/>
+        </metadata>
+    </workspace>
+    <workspace default="0" title="UDD" name="ueUDDWorkspace">
+        <overlay windowType="leLayout">
+            <dockArea side="left">
+                <assistantGroup>
+                    <assistant floating="false" forWorkspace="true" name="ueUDDAssistant"/>
+                </assistantGroup>
+            </dockArea>
+        </overlay>
+        <metadata name="activeTools">
+            <attribute name="ueUDDTool" value="true"/>
+        </metadata>
+    </workspace>
+    <workspace default="0" title="Template" name="deTemplateWorkspaceLayout">
+        <overlay windowType="leLayout">
+            <dockArea side="left">
+                <assistantGroup>
+                    <assistant show="false" floating="false" forWorkspace="true" name="deTemplateAttributes"/>
+                </assistantGroup>
+            </dockArea>
+        </overlay>
+    </workspace>
+    <workspace default="0" title="Template" name="deTemplateWorkspaceSchematic">
+        <overlay windowType="seSchematic">
+            <dockArea side="left">
+                <assistantGroup>
+                    <assistant show="false" floating="false" forWorkspace="true" name="deTemplateAttributes"/>
+                </assistantGroup>
+            </dockArea>
+        </overlay>
+    </workspace>
+</synopsysFile>
