@@ -129,3 +129,35 @@ El código del proceso a usar es 1243. El módulo fundamental es MOS de baja pot
   <p>.</p>
 </div>
 
+## 3. Diseño a nivel de esquemático
+
+| Transistor | L       | W        |
+|------------|---------|----------|
+| NMOS (ne)  | 180 nm  | 220 nm   |
+| PMOS (pe)  | 180 nm  | 440 nm   |
+
+
+<div style="text-align: center;">
+  <img src="img/esq_ne.png" alt="Descripción de la imagen" />
+  <p>.</p>
+</div>
+
+<div style="text-align: center;">
+  <img src="img/NAND_schematic.png" alt="Esquemático de la compuerta NAND2x1" />
+  <p>.</p>
+</div>
+
+### 3.1 Simulacón del esquemático
+
+
+
+<div style="text-align: center;">
+  <img src="img/NAND_schematic_mixta.png" alt="Esquemático de la compuerta NAND2x1" />
+  <p>.</p>
+</div>
+
+
+<div style="text-align: center;">
+  <img src="img/NAND_salida_analog.png" alt="Esquemático de la compuerta NAND2x1" />
+  <p>.</p>
+</div>
