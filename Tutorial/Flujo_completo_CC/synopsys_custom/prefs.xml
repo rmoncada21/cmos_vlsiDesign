@@ -4,6 +4,7 @@
 <preferences>
 	<pref name="dbExportNetlistViewSearchList" value="auCdl cmos_sch schematic"/>
 	<pref name="dbExportStreamLayerMapFile" value="./strmInOut.layertable"/>
+	<pref name="dbGenerateCellViewEditor" value="Schematic Editor"/>
 	<pref name="dbImportStreamLayerMapFile" value="./strmInOut.layertable"/>
 	<pref name="dbViewWordWrap" value="true"/>
 	<pref name="deActiveObjectToolbarProc" value="printInfo"/>
@@ -11,6 +12,7 @@
 	<pref name="dmNewLibTechLib" value="TECH_XT018"/>
 	<pref name="dmNewLibTechType" value="lib"/>
 	<pref name="giShowFrameTabs" value="false"/>
+	<pref name="leAbstractGenOptionSetDefault" value=""/>
 	<pref name="leAutoAbutment" value="true"/>
 	<pref name="leAutoHaloOverlap" value="true"/>
 	<pref name="leDrawInstPins" value="true"/>

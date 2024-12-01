@@ -1,7 +1,28 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Sat Oct 12 20:12:39 2024
+<!-- created by Custom Compiler (TM), build #, on Sat Nov 30 18:03:38 2024
 -->
 <synopsysFile version="1.0" name="synopsysFavoriteDevices">
         <favoriteDevices viewType="maskLayout"/>
-        <favoriteDevices viewType="schematic"/>
+        <favoriteDevices viewType="schematic">
+                <cellView library="PRIMLIB" cell="gnd" view="symbol">
+                        <alias name="gnd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="analogLib" cell="vsource" view="symbol">
+                        <alias name="vsource"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="analogLib" cell="cap" view="symbol">
+                        <alias name="cap"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="analogLib" cell="vdd" view="symbol">
+                        <alias name="vdd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="analogLib" cell="gnd" view="symbol">
+                        <alias name="gnd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
 </synopsysFile>
