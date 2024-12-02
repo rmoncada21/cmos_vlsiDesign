@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Sun Dec  1 16:39:01 2024
+-->
+<synopsysFile name="synopsysFavoriteDevices" version="1.0">
+        <favoriteDevices viewType="maskLayout">
+                <cellView library="FlipFlopt3_library" cell="DFFHDLLX0" view="layout">
+                        <alias name="DFFHDLLX0"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+        <favoriteDevices viewType="schematic">
+                <cellView library="D_CELLS_HDLL" cell="DFFHDLLX0" view="symbol">
+                        <alias name="DFFHDLLX0"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="analogLib" cell="vdd" view="symbol">
+                        <alias name="vdd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="analogLib" cell="gnd" view="symbol">
+                        <alias name="gnd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="D_CELLS_HDLL" cell="DFFRSHDLLX0" view="cmos_sch">
+                        <alias name="DFFRSHDLLX0"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="FlipFlopt3_library" cell="DFFSQHDLLX0" view="symbol">
+                        <alias name="DFFSQHDLLX0"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

@@ -1,0 +1,339 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 73728 bytes [need 72K bytes if disable swap]
+
+used block: 2 [memory(2) file(0)]
+                 [ 8K(1) 64K(1) { total 72K bytes } ]
+overhead: (9538) bytes for (2) blocks [Average: (4769) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 1(times) 0K(bytes) [0K bytes compressed data from file]
+access => 69(times) 1000K(bytes)
+          [hit ratio: 98.5507%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs)
+used swap file number: (1)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (3)
+closeHead: (1)
+closeTail: (2)
+openCnt: (1)
+fid(2): fd(33) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs/_swap_0001#8323328#767551)
+	size(0) lastModTime(0) curModTime(1733075578)
+	mode(w+b)	hot(0) cool(1) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Sun Dec  1 11:58:14 2024
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 147456 bytes [need 72K bytes if disable swap]
+
+used block: 4 [memory(4) file(0)]
+                 [ 8K(2) 64K(2) { total 144K bytes } ]
+overhead: (9538) bytes for (4) blocks [Average: (2384) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 2(times) 2K(bytes) [0K bytes compressed data from file]
+access => 356(times) 4M(bytes)
+          [hit ratio: 99.4382%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs)
+used swap file number: (3)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (5)
+closeHead: (3)
+closeTail: (4)
+openCnt: (1)
+fid(4): fd(33) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs/_swap_0001#8323328#767551)
+	size(0) lastModTime(0) curModTime(1733075894)
+	mode(w+b)	hot(0) cool(3) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(rb)	hot(4) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Sun Dec  1 12:01:10 2024
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 221184 bytes [need 72K bytes if disable swap]
+
+used block: 6 [memory(6) file(0)]
+                 [ 8K(3) 64K(3) { total 216K bytes } ]
+overhead: (9538) bytes for (6) blocks [Average: (1589) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 3(times) 3K(bytes) [1K bytes compressed data from file]
+access => 609(times) 7M(bytes)
+          [hit ratio: 99.5074%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs)
+used swap file number: (5)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (7)
+closeHead: (5)
+closeTail: (6)
+openCnt: (1)
+fid(6): fd(33) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs/_swap_0001#8323328#767551)
+	size(0) lastModTime(0) curModTime(1733076070)
+	mode(w+b)	hot(0) cool(5) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(rb)	hot(6) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Sun Dec  1 13:45:38 2024
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 294912 bytes [need 72K bytes if disable swap]
+
+used block: 8 [memory(8) file(0)]
+                 [ 8K(4) 64K(4) { total 288K bytes } ]
+overhead: (9538) bytes for (8) blocks [Average: (1192) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 4(times) 5K(bytes) [2K bytes compressed data from file]
+access => 900(times) 10M(bytes)
+          [hit ratio: 99.5556%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs)
+used swap file number: (7)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (9)
+closeHead: (7)
+closeTail: (8)
+openCnt: (1)
+fid(8): fd(33) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs/_swap_0001#8323328#767551)
+	size(0) lastModTime(0) curModTime(1733082338)
+	mode(w+b)	hot(0) cool(7) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(rb)	hot(8) cool(0) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Sun Dec  1 13:46:53 2024
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 368640 bytes [need 72K bytes if disable swap]
+
+used block: 10 [memory(10) file(0)]
+                 [ 8K(5) 64K(5) { total 360K bytes } ]
+overhead: (9538) bytes for (10) blocks [Average: (953) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 5(times) 7K(bytes) [2K bytes compressed data from file]
+access => 1191(times) 14M(bytes)
+          [hit ratio: 99.5802%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs)
+used swap file number: (9)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (11)
+closeHead: (9)
+closeTail: (10)
+openCnt: (1)
+fid(10): fd(33) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs/_swap_0001#8323328#767551)
+	size(0) lastModTime(0) curModTime(1733082413)
+	mode(w+b)	hot(0) cool(9) pos(0)
+fid(9): fd(0) fileName(NULL)
+	mode(rb)	hot(10) cool(0) pos(0)
+fid(8): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Sun Dec  1 13:50:34 2024
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 450560 bytes [need 80K bytes if disable swap]
+
+used block: 13 [memory(13) file(0)]
+                 [ 8K(7) 64K(6) { total 440K bytes } ]
+overhead: (9538) bytes for (13) blocks [Average: (733) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 6(times) 15K(bytes) [4K bytes compressed data from file]
+access => 2418(times) 27M(bytes)
+          [hit ratio: 99.7519%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs)
+used swap file number: (11)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (13)
+closeHead: (11)
+closeTail: (12)
+openCnt: (1)
+fid(12): fd(33) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs/_swap_0001#8323328#767551)
+	size(0) lastModTime(0) curModTime(1733082634)
+	mode(w+b)	hot(0) cool(11) pos(0)
+fid(11): fd(0) fileName(NULL)
+	mode(rb)	hot(12) cool(0) pos(0)
+fid(10): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(9): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(8): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Sun Dec  1 14:32:37 2024
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 524288 bytes [need 80K bytes if disable swap]
+
+used block: 15 [memory(15) file(0)]
+                 [ 8K(8) 64K(7) { total 512K bytes } ]
+overhead: (9538) bytes for (15) blocks [Average: (635) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 7(times) 17K(bytes) [5K bytes compressed data from file]
+access => 2709(times) 30M(bytes)
+          [hit ratio: 99.7416%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs)
+used swap file number: (13)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (15)
+closeHead: (13)
+closeTail: (14)
+openCnt: (2)
+fid(14): fd(33) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/npi_logs/_swap_0001#8323328#767551)
+	size(0) lastModTime(0) curModTime(1733085157)
+	mode(w+b)	hot(0) cool(13) pos(0)
+fid(13): fd(1073741824) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/cc_verilog_lib6.lib++/teText_APyRlo.tdc)
+	size(1183) lastModTime(1733082413) curModTime(1733082413)
+	mode(rb)	hot(14) cool(0) pos(0)
+fid(12): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(11): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(10): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(9): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(8): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(0x459b1200) pre(0x4316d0a0) next((nil))
+version(200506)
+date(Aug 13 2023 07:34:34)

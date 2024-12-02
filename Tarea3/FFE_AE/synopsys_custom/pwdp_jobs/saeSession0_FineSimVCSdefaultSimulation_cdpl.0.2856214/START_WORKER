@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#Created by PW DP.
+
+WDIR=`dirname $0`
+cd $WDIR
+
+if [ "x$CDPL_LOGDIR" = "x" ] ; then
+export CDPL_LOGDIR=$WDIR/logs
+fi
+
+export PATH=/mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/bin:/mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/OA/bin:/mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/linux64/3rd/bin:/mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/PyCellStudio/bin:/home/Martinez_Moncada_I_2024_vlsi/.local/bin:/home/Martinez_Moncada_I_2024_vlsi/bin:/usr/share/Modules/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/var/lib/snapd/snap/bin:/mnt/vol_synopsys2023/synopsys/asip_designer/U-2023.06-SP1/linux64/bin:/mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/syn/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/finesim/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/fusioncompiler/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/bin:/mnt/vol_synopsys2023/synopsys/icc/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/icc2/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/icvalidator/U-2022.12-SP4/bin:/mnt/vol_synopsys2023/synopsys/lc/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/mw/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/primesim/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/prime/U-2022.12-SP5/bin:/mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/siliconsmart/U-2022.12-SP5/bin:/mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/bin:/mnt/vol_synopsys2023/synopsys/scl/2023.03-SP1/linux64/bin:/mnt/vol_synopsys2023/synopsys/vc_static/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/vcps/U-2023.03-SP2-2/bin:/mnt/vol_synopsys2023/synopsys/vcs/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/verdi/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/wv/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/xa/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/euclide/Euclide-2023.12-SP1-2/linux.gtk.x86_64/eclipse/bin:/mnt/vol_synopsys2023/pdks/xfab/design/xkit/x_all/synopsys/xenv:/mnt/vol_synopsys2023/synopsys/asip_designer/U-2023.06-SP1/linux64/bin:/mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/syn/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/finesim/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/fusioncompiler/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/bin:/mnt/vol_synopsys2023/synopsys/icc/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/icc2/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/icvalidator/U-2022.12-SP4/bin:/mnt/vol_synopsys2023/synopsys/lc/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/mw/U-2022.12-SP6/bin:/mnt/vol_synopsys2023/synopsys/primesim/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/prime/U-2022.12-SP5/bin:/mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/siliconsmart/U-2022.12-SP5/bin:/mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/bin:/mnt/vol_synopsys2023/synopsys/scl/2023.03-SP1/linux64/bin:/mnt/vol_synopsys2023/synopsys/vc_static/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/vcps/U-2023.03-SP2-2/bin:/mnt/vol_synopsys2023/synopsys/vcs/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/verdi/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/wv/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/xa/U-2023.03-SP2/bin:/mnt/vol_synopsys2023/synopsys/euclide/Euclide-2023.12-SP1-2/linux.gtk.x86_64/eclipse/bin:/mnt/vol_synopsys2023/pdks/xfab/design/xkit/x_all/synopsys/xenv:/bin
+
+
+if [ ! -e "worker.out" ]; then
+echo "Running $@" > worker.out 2>&1
+$@ >> worker.out 2>&1
+else
+echo "Running $@" >> worker.out 2>&1
+$@ >> worker.out 2>&1
+fi

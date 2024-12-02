@@ -1,0 +1,7 @@
+# Master Broadcast File
+time 1728264744
+pid 2856214
+log /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/synopsys_custom/pwdp_jobs/saeSession0_FineSimVCSdefaultSimulation_cdpl.0.2856214/logs/master.redhat003.2856214.log.gz
+tcp 172.21.8.7:43035
+wlog /dev/null
+status done
