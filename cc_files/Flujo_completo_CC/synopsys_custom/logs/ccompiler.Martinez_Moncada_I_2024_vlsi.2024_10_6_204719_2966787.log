@@ -1,0 +1,101 @@
+[20:47:22.91] /o 
+              /c                                 Custom Compiler™ 
+              /c 
+              /c                Version U-2023.03-SP2 for linux64 - Aug 25, 2023 
+              /c 
+              /c                     Copyright (c) 2004 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9128410 compiled on Fri Aug 25 11:03:32 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/cdesigner -loadAll true
+              /c Execution time: Sun Oct  6 20:47:19 2024
+              /c Host: redhat003
+              /c Working directory: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC
+              /c 
+[20:47:29.12] /m Information: Registering ICV PERC package...
+[20:47:29.23] /o 
+[20:47:29.23] /o <> -------------------------------------------
+[20:47:29.23] /o <>
+[20:47:29.23] /o <> Loading XFAB PDK components
+[20:47:29.24] /o <>  basic                            O.K
+[20:47:29.25] /o <>  exports                          O.K
+[20:47:29.26] /o <>  custom                           O.K
+[20:47:29.26] /o <>  cdf                              O.K
+[20:47:29.26] /o <>  netlisting                       O.K
+[20:47:29.29] /o <>  useability                       O.K
+[20:47:29.30] /o <>  synopsys                         O.K
+[20:47:29.33] /o <>  pcellkit                         O.K
+[20:47:29.36] /o <>  trigger_callbacks                O.K
+[20:47:29.36] /o <> Loading XFAB PDK preferences
+[20:47:29.54] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[20:47:29.56] /w Warning: Preference 'xtStarTcadGrdFile' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[20:47:29.57] /o <> Loading Calibre presets for XFAB PDK
+[20:47:29.57] /o <> Loading .xfabrc user script
+[20:47:29.57] /o <>
+[20:47:29.57] /o <> -------------------------------------------
+[20:47:29.57] /o <>
+[20:47:29.57] /o <> Technology     xt018
+[20:47:29.57] /o <> Version        v12_1_1_1
+[20:47:29.57] /o <> LibCode        1243
+[20:47:29.57] /o <> Core           LP 1.8V
+[20:47:29.57] /o <> Metal          Thin4
+[20:47:29.57] /o <> TopMetal       METTP&METTPL
+[20:47:29.57] /o <>
+[20:47:29.57] /o <> -------------------------------------------
+[20:47:29.57] /o 
+[20:47:29.99] /r giShowFrameTabs false
+[20:47:32.77] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+491+551
+[20:47:35.49] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+997+208
+[20:47:35.89] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+997+211
+[20:48:08.39] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[20:48:08.39] /i de::showOpenDesign
+[20:48:08.42] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[20:48:08.69] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[20:48:11.63] /i gi::closeWindows [gi::getDialogs {deOpenDesign}]
+[20:48:17.36] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[20:48:17.40] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[20:48:17.69] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[20:48:19.85] /i gi::closeWindows [gi::getDialogs {dmNewCellView}]
+[20:49:53.25] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[20:49:53.25] /i de::showOpenDesign
+[20:49:53.27] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[20:49:53.56] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[20:49:55.04] /i gi::setCurrentIndex {designLibs} -index {basic_cells} -in [gi::getDialogs {deOpenDesign}]
+[20:49:55.04] /i gi::setItemSelection {designLibs} -index {basic_cells} -in [gi::getDialogs {deOpenDesign}]
+[20:50:01.56] /i gi::setCurrentIndex {designCells} -index {nand2x1} -in [gi::getDialogs {deOpenDesign}]
+[20:50:01.57] /i gi::setItemSelection {designCells} -index {nand2x1} -in [gi::getDialogs {deOpenDesign}]
+[20:50:12.08] /i gi::setCurrentIndex {designViews} -index {verilog} -in [gi::getDialogs {deOpenDesign}]
+[20:50:12.09] /i gi::setItemSelection {designViews} -index {verilog} -in [gi::getDialogs {deOpenDesign}]
+[20:50:17.79] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+625+300
+[20:50:34.07] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[20:50:34.07] /# de::open [dm::findCellView {verilog} -cellName {nand2x1} -libName {basic_cells}] -readOnly 0
+[20:50:34.12] /m Information: Feature 'SynopsysCustomShapes' checked out. (LICENSE-003)
+[20:50:34.17] /m Information: Parsing verilogText file for basic_cells/nand2x1/verilog by VCS parser. (NETLIST_PARSER-095)
+[20:50:35.36] /m Information: verilogText file basic_cells/nand2x1/verilog parsed successfully with no warnings (TE-008)
+[20:50:35.38] /r giWindowId 1
+[20:50:35.38] /r giWindowGeometry 800x600
+[20:50:35.77] /i db::setAttr dockSize -of [gi::getAssistants heHierarchyNavigator -from [gi::getWindows 1]] -value 274x471
+[20:50:35.79] /i db::setAttr geometry -of [gi::getFrames 1] -value 800x600+5+55
+[20:50:51.41] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[20:50:51.46] /i gi::setActiveWindow 0
+[20:50:51.46] /i gi::setActiveWindow 0 -raise true
+[20:50:55.26] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[20:50:55.30] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[20:50:55.59] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]] -value 354x207+1120+264
+[20:50:57.43] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[20:51:03.01] /o Shutdown time: Sun Oct  6 20:51:03 2024
+[20:51:03.01] /o Elapsed session real time: 3.66 minutes
+[20:51:03.01] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/synopsys_custom/logs/ccompiler.Martinez_Moncada_I_2024_vlsi.2024_10_6_204719_2966787.log

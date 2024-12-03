@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Sat Nov 30 18:03:27 2024
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file library="basic_cells" mode="write" file="schematic" cell="test_nand2x1_mixta" view="schematic"/>
+                <file library="basic_cells" mode="write" file="schematic" cell="test_nand2x1" view="schematic"/>
+                <file library="basic_cells" mode="write" file="schematic" cell="nand2x1" view="schematic"/>
+                <file library="basic_cells" mode="write" file="verilogText" cell="nand2x1" view="verilog"/>
+        </recentFiles>
+</synopsysFile>

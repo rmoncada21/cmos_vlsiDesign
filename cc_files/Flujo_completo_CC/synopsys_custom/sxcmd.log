@@ -1,0 +1,28 @@
+### Custom WaveView ADV log file, revision U-2023.03-SP2 (build Aug 24, ) ###
+### created at 17:44:02 on Sat Nov 30 2024 (Linux AMD64) ###
+### Host Name: redhat003   User ID: Martinez_Moncada_I_2024_vlsi   PID: 622595   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+#source {/mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc/../../linux64/swv/packages/SX-SNPSCUST-Link/snps_custom_link.tcl}
+#source TCL files from directory {/mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/bin/../auxx/auxx_for_cc}
+#sx_set_data_directory {/home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/simulation/default/PrimeSimHSPICE/nominal/results}#
+#[18:00:09.210] I| Setup simulation complete: 
+#    results directory: /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results 
+#    post database directory: /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results
+# -history_name
+#[18:00:09.210] I| Open section (null) for /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/resultsMap.xml, ref:/home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/inter.fsdb
+# -reset_sim false
+#[18:00:09.980] I| Setup simulation complete: 
+#    results directory: /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results 
+#    post database directory: /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results
+#[18:00:09.990] I| wvpp_output_all start
+#::wf::_scalarValueDB::scalarValue3754689983
+#::wf::_scalarValueDB::scalarValue3754689983
+#[18:00:09.050] I| wvpp_output_all end
+wv_resize_browser {Custom WaveView} {} {tran:1} 1018 616
+wv_resize_browser {Custom WaveView} {} {tran:1} 1904 868
+wv_resize_browser {Custom WaveView} {} {tran:1} 1018 616
+#sx_exit#

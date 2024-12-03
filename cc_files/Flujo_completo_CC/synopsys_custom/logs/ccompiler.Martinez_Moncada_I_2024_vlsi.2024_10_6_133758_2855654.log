@@ -1,0 +1,69 @@
+[13:38:01.02] /o 
+              /c                                 Custom Compiler™ 
+              /c 
+              /c                Version U-2023.03-SP2 for linux64 - Aug 25, 2023 
+              /c 
+              /c                     Copyright (c) 2004 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9128410 compiled on Fri Aug 25 11:03:32 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/cdesigner -loadAll true
+              /c Execution time: Sun Oct  6 13:37:58 2024
+              /c Host: redhat003
+              /c Working directory: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC
+              /c 
+[13:38:07.86] /m Information: Registering ICV PERC package...
+[13:38:08.02] /o 
+[13:38:08.02] /o <> -------------------------------------------
+[13:38:08.02] /o <>
+[13:38:08.02] /o <> Loading XFAB PDK components
+[13:38:08.02] /o <>  basic                            O.K
+[13:38:08.04] /o <>  exports                          O.K
+[13:38:08.05] /o <>  custom                           O.K
+[13:38:08.06] /o <>  cdf                              O.K
+[13:38:08.06] /o <>  netlisting                       O.K
+[13:38:08.09] /o <>  useability                       O.K
+[13:38:08.10] /o <>  synopsys                         O.K
+[13:38:08.15] /o <>  pcellkit                         O.K
+[13:38:08.18] /o <>  trigger_callbacks                O.K
+[13:38:08.18] /o <> Loading XFAB PDK preferences
+[13:38:08.43] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[13:38:08.45] /w Warning: Preference 'xtStarTcadGrdFile' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[13:38:08.45] /o <> Loading Calibre presets for XFAB PDK
+[13:38:08.45] /o <> Loading .xfabrc user script
+[13:38:08.45] /o <>
+[13:38:08.45] /o <> -------------------------------------------
+[13:38:08.45] /o <>
+[13:38:08.45] /o <> Technology     xt018
+[13:38:08.45] /o <> Version        v12_1_1_1
+[13:38:08.45] /o <> LibCode        1243
+[13:38:08.45] /o <> Core           LP 1.8V
+[13:38:08.45] /o <> Metal          Thin4
+[13:38:08.45] /o <> TopMetal       METTP&METTPL
+[13:38:08.45] /o <>
+[13:38:08.45] /o <> -------------------------------------------
+[13:38:08.45] /o 
+[13:38:08.99] /r giShowFrameTabs false
+[13:38:14.49] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+548+637
+[13:38:15.49] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x291+548+646
+[13:38:19.52] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x291+644+620
+[13:42:24.03] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[13:42:24.08] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[13:42:24.39] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]] -value 354x207+767+669
+[13:42:30.77] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[13:42:36.23] /o Shutdown time: Sun Oct  6 13:42:36 2024
+[13:42:36.23] /o Elapsed session real time: 4.58 minutes
+[13:42:36.23] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/synopsys_custom/logs/ccompiler.Martinez_Moncada_I_2024_vlsi.2024_10_6_133758_2855654.log
