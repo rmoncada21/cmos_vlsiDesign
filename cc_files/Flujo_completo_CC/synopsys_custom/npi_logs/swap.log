@@ -1,0 +1,39 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 73728 bytes [need 72K bytes if disable swap]
+
+used block: 2 [memory(2) file(0)]
+                 [ 8K(1) 64K(1) { total 72K bytes } ]
+overhead: (9538) bytes for (2) blocks [Average: (4769) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 1(times) 1K(bytes) [0K bytes compressed data from file]
+access => 167(times) 1M(bytes)
+          [hit ratio: 99.4012%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/synopsys_custom/npi_logs)
+used swap file number: (1)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (3)
+closeHead: (1)
+closeTail: (2)
+openCnt: (2)
+fid(2): fd(33) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/synopsys_custom/npi_logs/_swap_0001#8323328#573693)
+	size(0) lastModTime(0) curModTime(1733002878)
+	mode(w+b)	hot(0) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC/synopsys_custom/cc_verilog_lib2.lib++/teText_yASIrt.tdc)
+	size(754) lastModTime(1733002877) curModTime(1733002877)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(0x433fffe0) pre(0x42fe5f00) next((nil))
+version(200506)
+date(Aug 13 2023 07:34:34)

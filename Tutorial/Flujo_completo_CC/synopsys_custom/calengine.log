@@ -1,0 +1,67 @@
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.13MB -*-
+  -*- CPU Time :     0.34s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.13MB -*-
+  -*- CPU Time :     0.34s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.35s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.35s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.35s -*-
+sx_set_data_directory {/home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/simulation/default/PrimeSimHSPICE/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.48MB -*-
+  -*- CPU Time :     0.36s -*-
+[18:00:08.210] I| Created new database /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/post_results.db
+[18:00:08.210] I| Setup simulation complete: 
+    results directory: /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results 
+    post database directory: /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results
+   *** loading waveform file /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/resultsMap.xml ... ***
+   *** loading waveform file /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/inter.fsdb ... ***
+   *** Loading waveform file finished ***
+   *** Evaluating Equations... ***
+Nominal: Start to call cckDBHandler to create handler
+Nominal: Start to integrate database
+Start to post process[18:00:09.270] I| Created new database /home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/post_results.db
+[18:00:09.280] I| Start generating post results database...
+[18:00:09.280] I| Clear post result data in database.
+[18:00:09.320] I| Create Post WDF File ...S_default/FineSimProVCS/nominal/results/post1.wave
+[18:00:09.320] I| Generate post results database complete.
+sx_exit
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.14MB -*-
+  -*- CPU Time :     0.32s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.14MB -*-
+  -*- CPU Time :     0.32s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.33s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.33s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.09MB -*-
+  -*- CPU Time :     0.33s -*-
+sx_set_data_directory {/home/Martinez_Moncada_I_2024_vlsi/simulation/basic_cells,test_nand2x1_mixta,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.49MB -*-
+  -*- CPU Time :     0.34s -*-
+sx_exit

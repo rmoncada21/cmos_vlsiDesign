@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Sun Dec  1 16:38:50 2024
+-->
+<synopsysFile name="synopsysRecentFiles" version="1.1">
+        <recentFiles>
+                <file mode="write" library="FlipFlopt3_library" cell="DFFHDLLX0" file="schematic" view="cmos_sch"/>
+                <file mode="write" library="FlipFlopt3_library" cell="DFFHDLLX0" file="maskLayout" view="layout"/>
+                <file mode="write" library="FlipFlopt3_library" cell="flipflop_1bit" file="maskLayout" view="layout"/>
+                <file mode="write" library="FlipFlopt3_library" cell="DFFHDLLX0" file="schematicSymbol" view="symbol"/>
+                <file mode="write" library="FlipFlopt3_library" cell="DFFSQHDLLX0" file="maskLayout" view="layout"/>
+        </recentFiles>
+</synopsysFile>

@@ -1,0 +1,4 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='U-2023.03-SP2 linux6' PARAM_COUNT=0
+.TITLE 'flip-flop d'
+ q_max            q_min            temper           alter#          
+    1.8000           1.8000          70.0000        1               

@@ -1,0 +1,209 @@
+[20:12:43.81] /o 
+              /c                                 Custom Compiler™ 
+              /c 
+              /c                Version U-2023.03-SP2 for linux64 - Aug 25, 2023 
+              /c 
+              /c                     Copyright (c) 2004 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9128410 compiled on Fri Aug 25 11:03:32 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/cdesigner -loadAll true
+              /c Execution time: Sat Oct 12 20:12:41 2024
+              /c Host: redhat003
+              /c Working directory: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tutorial/Flujo_completo_CC
+              /c 
+[20:12:49.87] /m Information: Registering ICV PERC package...
+[20:12:49.98] /o 
+[20:12:49.98] /o <> -------------------------------------------
+[20:12:49.98] /o <>
+[20:12:49.98] /o <> Loading XFAB PDK components
+[20:12:49.99] /o <>  basic                            O.K
+[20:12:50.00] /o <>  exports                          O.K
+[20:12:50.01] /o <>  custom                           O.K
+[20:12:50.01] /o <>  cdf                              O.K
+[20:12:50.01] /o <>  netlisting                       O.K
+[20:12:50.04] /o <>  useability                       O.K
+[20:12:50.05] /o <>  synopsys                         O.K
+[20:12:50.08] /o <>  pcellkit                         O.K
+[20:12:50.11] /o <>  trigger_callbacks                O.K
+[20:12:50.11] /o <> Loading XFAB PDK preferences
+[20:12:50.30] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[20:12:50.32] /w Warning: Preference 'xtStarTcadGrdFile' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[20:12:50.32] /o <> Loading Calibre presets for XFAB PDK
+[20:12:50.32] /o <> Loading .xfabrc user script
+[20:12:50.32] /o <>
+[20:12:50.32] /o <> -------------------------------------------
+[20:12:50.32] /o <>
+[20:12:50.32] /o <> Technology     xt018
+[20:12:50.32] /o <> Version        v12_1_1_1
+[20:12:50.32] /o <> LibCode        1243
+[20:12:50.32] /o <> Core           LP 1.8V
+[20:12:50.32] /o <> Metal          Thin4
+[20:12:50.32] /o <> TopMetal       METTP&METTPL
+[20:12:50.32] /o <>
+[20:12:50.32] /o <> -------------------------------------------
+[20:12:50.32] /o 
+[20:12:50.55] /r giShowFrameTabs false
+[20:14:44.41] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+588+347
+[20:14:47.61] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+775+97
+[20:14:52.25] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[20:14:52.36] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[20:14:52.64] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[20:15:05.45] /i gi::setCurrentIndex {cells} -index {nand2x1} -in [gi::getDialogs {dmNewCellView}]
+[20:15:05.47] /i gi::setItemSelection {cells} -index {nand2x1} -in [gi::getDialogs {dmNewCellView}]
+[20:15:06.83] /i gi::setCurrentIndex {views} -index {verilog} -in [gi::getDialogs {dmNewCellView}]
+[20:15:06.84] /i gi::setItemSelection {views} -index {verilog} -in [gi::getDialogs {dmNewCellView}]
+[20:16:00.87] /i gi::closeWindows [gi::getDialogs {dmNewCellView}]
+[20:16:03.41] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[20:16:03.41] /i de::showOpenDesign
+[20:16:03.48] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[20:16:03.74] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[20:16:06.52] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+358+359
+[20:16:06.94] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+359+359
+[20:16:12.92] /i gi::setCurrentIndex {designLibs} -index {basic_cells} -in [gi::getDialogs {deOpenDesign}]
+[20:16:12.92] /i gi::setItemSelection {designLibs} -index {basic_cells} -in [gi::getDialogs {deOpenDesign}]
+[20:16:16.26] /i gi::setCurrentIndex {designCells} -index {nand2x1} -in [gi::getDialogs {deOpenDesign}]
+[20:16:16.29] /i gi::setItemSelection {designCells} -index {nand2x1} -in [gi::getDialogs {deOpenDesign}]
+[20:16:20.41] /i gi::setCurrentIndex {designViews} -index {verilog} -in [gi::getDialogs {deOpenDesign}]
+[20:16:20.42] /i gi::setItemSelection {designViews} -index {verilog} -in [gi::getDialogs {deOpenDesign}]
+[20:16:24.29] /i gi::pressButton {ok} -in [gi::getDialogs {deOpenDesign}]
+[20:16:24.29] /# de::open [dm::findCellView {verilog} -cellName {nand2x1} -libName {basic_cells}] -readOnly 0
+[20:16:24.41] /m Information: Feature 'SynopsysCustomShapes' checked out. (LICENSE-003)
+[20:16:24.48] /m Information: Parsing verilogText file for basic_cells/nand2x1/verilog by VCS parser. (NETLIST_PARSER-095)
+[20:16:26.01] /m Information: verilogText file basic_cells/nand2x1/verilog parsed successfully with no warnings (TE-008)
+[20:16:26.07] /r giWindowId 1
+[20:16:26.08] /r giWindowGeometry 800x600
+[20:16:26.45] /i db::setAttr dockSize -of [gi::getAssistants heHierarchyNavigator -from [gi::getWindows 1]] -value 274x471
+[20:16:26.52] /i db::setAttr geometry -of [gi::getFrames 1] -value 800x600+5+55
+[20:16:30.74] /i db::setAttr geometry -of [gi::getFrames 1] -value 800x600+342+249
+[20:16:32.84] /i db::setAttr geometry -of [gi::getFrames 1] -value 800x600+902+160
+[20:16:34.44] /i db::setAttr geometry -of [gi::getFrames 1] -value 800x600+1115+57
+[20:16:34.97] /i db::setAttr geometry -of [gi::getFrames 1] -value 800x600+1110+55
+[20:16:36.16] /i gi::setActiveWindow 0
+[20:16:36.16] /i gi::setActiveWindow 0 -raise true
+[20:16:37.45] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+326+60
+[20:16:37.85] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+332+59
+[20:16:48.26] /i gi::setActiveWindow 1
+[20:16:48.26] /i gi::setActiveWindow 1 -raise true
+[20:17:08.48] /# gi::executeAction {deCellviewFromCellview} -in [gi::getWindows 1]
+[20:17:08.48] /i db::showCellViewFromCellView -src [db::getAttr container -of [db::getAttr editFile -of [db::getNext [de::getContexts -window 1]]]] 
+[20:17:08.57] /i gi::setActiveDialog [gi::getDialogs {dbCellViewFromCellView}]
+[20:17:08.84] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x385+636+367
+[20:17:11.36] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x385+1059+316
+[20:17:46.95] /i gi::setField {adjustPins} -value {true} -in [gi::getDialogs {dbCellViewFromCellView}]
+[20:17:47.24] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x598+1059+316
+[20:18:16.94] /i gi::setField {generateCellViewEditor} -value {Schematic\ Editor} -in [gi::getDialogs {dbCellViewFromCellView}]
+[20:18:47.85] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x598+1106+456
+[20:18:49.44] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x598+1106+450
+[20:18:56.72] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x598+1105+398
+[20:18:58.94] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x598+1109+421
+[20:18:59.57] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x598+1109+422
+[20:19:05.95] /i gi::pressButton {ok} -in [gi::getDialogs {dbCellViewFromCellView}]
+[20:19:06.23] /r giWindowId 2
+[20:19:06.23] /r giWindowGeometry 1632x947
+[20:19:06.48] /o oa:0x44bab3b0
+[20:19:06.83] /i db::setAttr geometry -of [gi::getFrames 2] -value 1632x947+5+55
+[20:20:16.31] /# gi::executeAction {seCreateInst} -in [gi::getWindows 2]
+[20:20:16.31] /i ise::createInst
+[20:20:16.57] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:20:16.58] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:20:16.63] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:20:16.94] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]] -value 472x485+0+64
+[20:20:17.19] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[20:20:18.19] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[20:20:19.27] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]] -value 472x485+388+237
+[20:20:19.51] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[20:20:32.98] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[20:21:21.34] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[20:21:31.67] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:21:31.68] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:21:31.68] /i gi::setField {instMasterCell} -value {ne} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:21:31.96] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]] -value 472x536+388+237
+[20:21:52.39] /i gi::setField {instName} -value {} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:21:54.13] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]] -value 482x697+388+237
+[20:22:02.31] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]] -value 482x864+388+70
+[20:23:47.67] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:23:47.67] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:00.27] /i gi::setField {parameters} -value {220 nm} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:00.32] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:00.32] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:03.46] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:03.46] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:05.53] /i gi::setField {parameters} -value {220 n} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:05.55] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:05.55] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:11.85] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:11.85] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:14.63] /i gi::setField {parameters} -value {220} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:14.63] /w Warning: Xpc: Width per Finger reset to rule maximum: 0.0002
+[20:24:14.64] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:14.64] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:18.11] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:18.11] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:24.33] /i gi::setItemSelection {parameters} -index {wtot,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:24.34] /i gi::setCurrentIndex {parameters} -index {wtot,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:30.12] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:24:30.12] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:25:02.32] /i gi::setField {parameters} -value {2u} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:25:44.71] /i gi::setField {parameters} -value {0.22u} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:25:45.12] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:25:45.12] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:25:48.58] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:25:48.58] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:25:54.03] /i gi::setField {parameters} -value {0.22u} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:25:54.04] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:25:54.04] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:26:23.16] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:26:23.16] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:26:29.65] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:26:29.65] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:26:31.80] /i gi::setItemSelection {parameters} -index {w,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:26:31.80] /i gi::setCurrentIndex {parameters} -index {w,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:26:35.06] /i gi::setItemSelection {parameters} -index {l,all} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:26:35.06] /i gi::setCurrentIndex {parameters} -index {l,Value} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]]
+[20:29:37.31] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[20:29:37.64] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[21:15:09.52] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]] -value 482x864+769+80
+[21:15:10.74] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]] -value 482x864+1042+69
+[21:15:11.94] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]] -value 482x864+1259+83
+[21:15:13.25] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 2]] -value 482x864+1409+80
+[21:15:18.96] /# gi::executeAction {deAddPoint} -in [gi::getWindows 2]
+[21:15:18.96] /i de::addPoint {1.05 0.4375} -context [db::getNext [de::getContexts -window 2]]
+[21:15:27.24] /# gi::executeAction {deAddPoint} -in [gi::getWindows 2]
+[21:15:27.24] /i de::addPoint {3.125 0.4625} -context [db::getNext [de::getContexts -window 2]]
+[21:17:17.92] /# gi::executeAction {deAddPoint} -in [gi::getWindows 2]
+[21:17:17.92] /i de::addPoint {2.075 -0.49375} -context [db::getNext [de::getContexts -window 2]]
+[21:17:21.13] /# gi::executeAction {deAddPoint} -in [gi::getWindows 2]
+[21:17:21.13] /i de::addPoint {2.05 -1.61875} -context [db::getNext [de::getContexts -window 2]]
+[21:17:24.88] /# gi::executeAction {deAbortCommand} -in [gi::getWindows 2]
+[21:17:24.88] /i de::abortCommand -context [db::getNext [de::getContexts -window 2]]
+[21:17:38.34] /# gi::executeAction {seButton1DragStart} -in [gi::getWindows 2]
+[21:17:38.34] /i ise::stretch -object [de::getActiveFigure [gi::getWindows 2] -point {1.20625 0.41875} -index 0 -intent none] -point {1.1875 0.4375}
+[21:17:39.39] /# gi::executeAction {deEndDrag} -in [gi::getWindows 2]
+[21:17:39.39] /i de::endDrag {1.33125 -1.51875} -context [db::getNext [de::getContexts -window 2]]
+[21:17:42.80] /# gi::executeAction {seButton1DragStart} -in [gi::getWindows 2]
+[21:17:42.80] /i ise::stretch -object [de::getActiveFigure [gi::getWindows 2] -point {1.3125 -1.5} -index 0 -intent none] -point {1.3125 -1.5}
+[21:17:44.39] /# gi::executeAction {deEndDrag} -in [gi::getWindows 2]
+[21:17:44.39] /i de::endDrag {1.125 0.40625} -context [db::getNext [de::getContexts -window 2]]
+[13:55:56.56] /# Date and Time: Mon Oct 14 13:55:56 2024
+[13:55:56.57] /i db::setAttr geometry -of [gi::getFrames 2] -value 1632x947+83+55
+[13:56:25.14] /i db::setAttr geometry -of [gi::getFrames 2] -value 1632x947+134+55
+[08:29:11.09] /o signal number = 15
+              /c Information: Received "Terminate" signal. Sending  PID: 497064864 UID: 32764. Process is terminated.
+[08:29:11.36] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)
+[08:29:11.89] /m Information: Recovery copies have been created for the following cellViews:
+              /c basic_cells/nand2x1/schematic

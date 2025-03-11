@@ -1,0 +1,15 @@
+#------------------------------------------------------------------------------
+# Custom Compiler lib.defs file
+# please insert here your userdefined libraries
+# manually
+#------------------------------------------------------------------------------
+#--------------------------------------
+# XFAB include
+#  do not modify this line
+#--------------------------------------
+INCLUDE XFABlib.defs
+DEFINE VLG_PRIMITIVES           $FTK_KIT_DIR/x_all/synopsys/xenv/v3_3_0/general/VLG_PRIMITIVES
+#--------------------------------------
+#  Custom Compiler will insert here the libs
+#--------------------------------------
+DEFINE basic_cells ./basic_cells

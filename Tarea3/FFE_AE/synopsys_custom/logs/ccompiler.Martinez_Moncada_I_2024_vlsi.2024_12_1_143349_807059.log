@@ -1,0 +1,452 @@
+[14:33:54.48] /o 
+              /c                                 Custom Compiler™ 
+              /c 
+              /c                Version U-2023.03-SP2 for linux64 - Aug 25, 2023 
+              /c 
+              /c                     Copyright (c) 2004 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9128410 compiled on Fri Aug 25 11:03:32 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/cdesigner -loadAll true
+              /c Execution time: Sun Dec  1 14:33:49 2024
+              /c Host: redhat003
+              /c Working directory: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE
+              /c 
+[14:34:06.08] /m Information: Registering ICV PERC package...
+[14:34:06.14] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/lib.defs: Unable to open library FlipFlop at path /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/FlipFlop : No access permission. (DATA_MANAGEMENT-014)
+[14:34:06.14] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/lib.defs: Unable to open library flipflopt3 at path /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/flipflopt3 : No access permission. (DATA_MANAGEMENT-014)
+[14:34:06.14] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/lib.defs: Unable to open library FlipFlopt3_library at path /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/FlipFlopt3_library : No access permission. (DATA_MANAGEMENT-014)
+[14:34:06.25] /o 
+[14:34:06.25] /o <> -------------------------------------------
+[14:34:06.25] /o <>
+[14:34:06.25] /o <> Loading XFAB PDK components
+[14:34:06.25] /o <>  basic                            O.K
+[14:34:06.27] /o <>  exports                          O.K
+[14:34:06.29] /o <>  custom                           O.K
+[14:34:06.29] /o <>  cdf                              O.K
+[14:34:06.30] /o <>  netlisting                       O.K
+[14:34:06.35] /o <>  useability                       O.K
+[14:34:06.36] /o <>  synopsys                         O.K
+[14:34:06.41] /o <>  pcellkit                         O.K
+[14:34:06.47] /o <>  trigger_callbacks                O.K
+[14:34:06.47] /o <> Loading XFAB PDK preferences
+[14:34:06.74] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[14:34:06.76] /w Warning: Preference 'xtStarTcadGrdFile' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[14:34:06.77] /o <> Loading Calibre presets for XFAB PDK
+[14:34:06.77] /o <> Loading .xfabrc user script
+[14:34:06.77] /o <>
+[14:34:06.77] /o <> -------------------------------------------
+[14:34:06.77] /o <>
+[14:34:06.77] /o <> Technology     xt018
+[14:34:06.77] /o <> Version        v12_1_1_1
+[14:34:06.77] /o <> LibCode        1243
+[14:34:06.77] /o <> Core           LP 1.8V
+[14:34:06.77] /o <> Metal          Thin4
+[14:34:06.77] /o <> TopMetal       METTP&METTPL
+[14:34:06.77] /o <>
+[14:34:06.77] /o <> -------------------------------------------
+[14:34:06.77] /o 
+[14:34:07.11] /r giShowFrameTabs false
+[14:34:15.60] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+676+651
+[14:34:18.85] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[14:34:18.93] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[14:34:19.20] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[14:34:28.23] /i gi::closeWindows [gi::getDialogs {dmNewCellView}]
+[14:34:30.97] /# gi::executeAction {dmShowNewLibrary} -in [gi::getWindows 0]
+[14:34:30.97] /i dm::showNewLibrary -parent 0
+[14:34:31.04] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary}]
+[14:34:31.30] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary}] -value 454x536+723+245
+[14:34:39.31] /i gi::setField {libName} -value {FlipFlopt3} -in [gi::getDialogs {dmNewLibrary}]
+[14:34:39.53] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary}]
+[14:34:39.54] /# dm::createLib FlipFlopt3 -path {./FlipFlopt3} -dmSystem oaDMFileSys
+[14:34:39.57] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/lib.defs: Unable to open library FlipFlop at path /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/FlipFlop : No access permission. (DATA_MANAGEMENT-014)
+[14:34:39.57] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/lib.defs: Unable to open library flipflopt3 at path /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/flipflopt3 : No access permission. (DATA_MANAGEMENT-014)
+[14:34:39.57] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/lib.defs: Unable to open library FlipFlopt3_library at path /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/FlipFlopt3_library : No access permission. (DATA_MANAGEMENT-014)
+[14:34:39.59] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/lib.defs: Unable to open library FlipFlop at path /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/FlipFlop : No access permission. (DATA_MANAGEMENT-014)
+[14:34:39.59] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/lib.defs: Unable to open library flipflopt3 at path /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/flipflopt3 : No access permission. (DATA_MANAGEMENT-014)
+[14:34:39.59] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/lib.defs: Unable to open library FlipFlopt3_library at path /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/FlipFlopt3_library : No access permission. (DATA_MANAGEMENT-014)
+[14:34:39.62] /# db::attachTech [oa::LibFind [ oa::ScalarName [oa::CdbaNS] FlipFlopt3]] -refLib [oa::LibFind [ oa::ScalarName [oa::CdbaNS] TECH\_XT018]]
+[14:34:42.72] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[14:34:42.78] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[14:34:43.02] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[14:34:44.46] /i gi::setCurrentIndex {libs} -index {FlipFlopt3} -in [gi::getDialogs {dmNewCellView}]
+[14:34:44.47] /i gi::setItemSelection {libs} -index {FlipFlopt3} -in [gi::getDialogs {dmNewCellView}]
+[14:34:59.30] /i gi::setField {cellName} -value {flipflop_1bit} -in [gi::getDialogs {dmNewCellView}]
+[14:35:18.48] /i gi::setField {cellViewName} -value {schematic} -in [gi::getDialogs {dmNewCellView}]
+[14:35:20.75] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView}]
+[14:35:20.76] /# db::getAttr viewType -of [dm::findCellView schematic -cell [dm::findCell flipflop\_1bit -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] FlipFlopt3]]]]
+[14:35:20.76] /# dm::createCellView schematic -cell [dm::findCell flipflop\_1bit -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] FlipFlopt3]]] -viewType schematic
+[14:35:20.77] /# gi::setItemSelection {cells} -index {flipflop_1bit} -in [gi::getDialogs {dmNewCellView}]
+[14:35:20.77] /# de::open [dm::findCellView schematic -cell [dm::findCell flipflop\_1bit -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] FlipFlopt3]]]] -application seSchematic
+[14:35:20.79] /m Information: Feature 'SynopsysCustomLayout' checked out. (LICENSE-003)
+[14:35:20.84] /r giWindowId 1
+[14:35:20.84] /r giWindowGeometry 1910x1020+5+55
+[14:35:20.84] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[14:35:21.40] /i db::setAttr dockSize -of [gi::getAssistants deMarkerBrowser -from [gi::getWindows 1]] -value 292x891
+[14:35:36.82] /# gi::executeAction {seCreateInst} -in [gi::getWindows 1]
+[14:35:36.82] /i ise::createInst
+[14:35:37.14] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:35:37.14] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:35:37.20] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:35:37.50] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]] -value 472x485+0+64
+[14:35:37.56] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[14:35:39.00] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[14:35:39.93] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]] -value 472x485+510+223
+[14:35:40.26] /e Error: The requested action could not be completed because one or more inputs are incomplete or invalid. (CUSTOM_WIDGETS-001)
+[14:35:41.20] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]] -value 472x485+595+270
+[14:35:44.54] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:35:44.54] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:35:44.54] /i gi::setField {instMasterLib} -value {D_CELLS_HDLL} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:35:44.87] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]] -value 472x454+595+270
+[14:35:55.78] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:35:55.78] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:35:55.78] /i gi::setField {instMasterCell} -value {DFFRSHDLLX0} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:35:56.09] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]] -value 472x447+595+270
+[14:36:10.12] /i gi::setField {parametersExpand} -value {false} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:36:10.12] /i gi::setField {parametersExpand} -value {true} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:36:10.13] /i gi::setField {instMasterView} -value {cmos_sch} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:36:10.41] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]] -value 472x445+595+270
+[14:36:40.86] /# gi::executeAction {deAddPoint} -in [gi::getWindows 1]
+[14:36:40.86] /i de::addPoint {-1.2875 -0.35} -context [db::getNext [de::getContexts -window 1]]
+[14:36:47.05] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 1]]
+[14:36:48.77] /# gi::executeAction {deFitEdit} -in [gi::getWindows 1]
+[14:36:48.77] /i de::fit -window 1 -fitEdit true
+[14:36:50.47] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[14:36:50.47] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[14:36:50.47] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {7.3125 3.38125} -index 0 -intent none]
+[14:36:50.47] /o oa:0x43d5d290
+[14:36:52.15] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[14:36:52.15] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[14:36:52.15] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[14:36:52.95] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[14:36:52.95] /i de::deselectAll [db::getNext [de::getContexts -window 1]]
+[14:36:52.95] /i de::select [de::getActiveFigure [gi::getWindows 1] -point {9.2875 3.4} -index 0 -intent none]
+[14:36:52.95] /o oa:0x440ecaa0
+[14:36:53.10] /i ::se::internal::descendInst 1 [de::getActiveFigure [gi::getWindows 1] -point {9.2875 3.4} -index 0 -intent none] auto
+[14:36:53.11] /# ide::descend 1 -inPlace false -readOnly auto
+[14:36:53.19] /r giDialog gi::setActiveDialog [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]]
+[14:36:53.50] /r giDialog db::setAttr geometry -of [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]] -value 498x82+711+531
+[14:37:01.80] /r giDialog gi::closeWindows [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]]
+[14:37:05.68] /# gi::executeAction {seSchCheckAndSave} -in [gi::getWindows 1]
+[14:37:05.68] /i ise::check
+[14:37:05.71] /m Information: 
+[14:37:05.71] /o Checking "FlipFlopt3/flipflop_1bit/schematic"
+[14:37:05.71] /o 	[warning] Floating Input Instance Pins
+[14:37:05.71] /o 		Input pin 'CN' of instance 'nMOS' is floating
+[14:37:05.71] /o 		Input pin 'D' of instance 'nMOS' is floating
+[14:37:05.71] /o 		Input pin 'RN' of instance 'nMOS' is floating
+[14:37:05.71] /o 		Input pin 'SN' of instance 'nMOS' is floating
+[14:37:05.71] /o 	[warning] Floating Output Instance Pins
+[14:37:05.71] /o 		Output pin 'Q' of instance 'nMOS' is floating
+[14:37:05.71] /o 		Output pin 'QN' of instance 'nMOS' is floating
+[14:37:05.71] /o 0 Error(s),6 Warning(s),0 Message(s) found   in "FlipFlopt3/flipflop_1bit/schematic"
+[14:37:05.71] /m Information: Checking process is completed: marking the design violations
+[14:37:05.79] /m Information: Marking of designs is completed
+[14:37:09.37] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[14:37:09.37] /i de::cycleActiveFigure [gi::getWindows 1] -direction next
+[14:37:09.37] /o oa:0x43e501a0
+[14:37:09.59] /i ::se::internal::descendInst 1 [de::getActiveFigure [gi::getWindows 1] -point {7.00625 4.175} -index 0 -intent none] auto
+[14:37:09.60] /# ide::descend 1 -inPlace false -readOnly auto
+[14:37:09.67] /r giDialog gi::setActiveDialog [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]]
+[14:37:09.99] /r giDialog db::setAttr geometry -of [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]] -value 498x82+711+531
+[14:37:36.52] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deDescendFailed} -parent [gi::getWindows 1]]
+[14:37:36.53] /# Navigating to D_CELLS_HDLL/DFFRSHDLLX0/cmos_sch (nMOS)
+[14:37:36.57] /e Error: Could not set preference deActiveObjectToolbarProc to value 'printInfo' because that value is invalid. Tcl procedure with the given name doesn't exist. (PREFERENCE-043)
+[14:37:36.61] /r giWindowGeometry 1910x1020+5+55
+[14:37:38.70] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[14:37:38.70] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[14:37:41.90] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[14:37:41.90] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[14:37:43.02] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[14:37:43.02] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[14:37:43.23] /# gi::executeAction {deSelectActive} -in [gi::getWindows 1]
+[14:37:43.23] /i de::deselectAllLogic -context [de::getContexts -filter {%editDesign==[db::getAttr editDesign -of [db::getNext [de::getContexts -window 1]]]}]
+[14:37:49.69] /i gi::setActiveWindow 0
+[14:37:49.69] /i gi::setActiveWindow 0 -raise true
+[14:37:57.07] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[14:37:57.12] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[14:37:57.40] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[14:38:00.03] /i gi::setCurrentIndex {libs} -index {FlipFlopt3} -in [gi::getDialogs {dmNewCellView}]
+[14:38:00.05] /i gi::setItemSelection {libs} -index {FlipFlopt3} -in [gi::getDialogs {dmNewCellView}]
+[14:38:01.17] /i gi::setCurrentIndex {libs} -index {basic_cells} -in [gi::getDialogs {dmNewCellView}]
+[14:38:01.17] /i gi::setItemSelection {libs} -index {basic_cells} -in [gi::getDialogs {dmNewCellView}]
+[14:38:03.06] /i gi::sortItems {libs} -column {Libraries} -order {descending} -in [gi::getDialogs {dmNewCellView}]
+[14:38:04.05] /i gi::sortItems {libs} -column {Libraries} -order {ascending} -in [gi::getDialogs {dmNewCellView}]
+[14:38:06.76] /i gi::closeWindows [gi::getDialogs {dmNewCellView}]
+[14:38:10.45] /# gi::executeAction {deOpenDesign} -in [gi::getWindows 0]
+[14:38:10.45] /i de::showOpenDesign
+[14:38:10.51] /i gi::setActiveDialog [gi::getDialogs {deOpenDesign}]
+[14:38:10.78] /i db::setAttr geometry -of [gi::getDialogs {deOpenDesign}] -value 645x491+628+268
+[14:38:12.84] /i gi::setCurrentIndex {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[14:38:12.88] /i gi::setItemSelection {designLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.31] /i gi::setCurrentIndex {designCells} -index {AN31HDLLX2} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.36] /i gi::setItemSelection {designCells} -index {AN31HDLLX2} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.57] /i gi::setItemSelection {designCells} -index {AN22HDLLX4} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.57] /i gi::setCurrentIndex {designCells} -index {AN22HDLLX4} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.62] /i gi::setItemSelection {designCells} -index {AN22HDLLX2} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.62] /i gi::setCurrentIndex {designCells} -index {AN22HDLLX2} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.67] /i gi::setItemSelection {designCells} -index {AN22HDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.68] /i gi::setCurrentIndex {designCells} -index {AN22HDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.72] /i gi::setItemSelection {designCells} -index {AN21HDLLX4} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.72] /i gi::setCurrentIndex {designCells} -index {AN21HDLLX4} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.82] /i gi::setItemSelection {designCells} -index {AN22HDLLX1} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.82] /i gi::setCurrentIndex {designCells} -index {AN22HDLLX1} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.85] /i gi::setItemSelection {designCells} -index {AN22HDLLX2} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.85] /i gi::setCurrentIndex {designCells} -index {AN22HDLLX2} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.87] /i gi::setItemSelection {designCells} -index {AN22HDLLX4} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.87] /i gi::setCurrentIndex {designCells} -index {AN22HDLLX4} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.92] /i gi::setItemSelection {designCells} -index {AN31HDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.92] /i gi::setCurrentIndex {designCells} -index {AN31HDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.97] /i gi::setItemSelection {designCells} -index {AN31HDLLX1} -in [gi::getDialogs {deOpenDesign}]
+[14:38:14.97] /i gi::setCurrentIndex {designCells} -index {AN31HDLLX1} -in [gi::getDialogs {deOpenDesign}]
+[14:38:23.98] /i gi::setCurrentIndex {designCells} -index {DFFSHDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[14:38:24.02] /i gi::setItemSelection {designCells} -index {DFFSHDLLX0} -in [gi::getDialogs {deOpenDesign}]
+[14:38:25.87] /i gi::closeWindows [gi::getDialogs {deOpenDesign}]
+[14:38:31.64] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[14:38:31.70] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[14:38:31.97] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[14:38:34.24] /i gi::closeWindows [gi::getDialogs {dmNewCellView}]
+[14:39:28.88] /# gi::executeAction {dmShowLibraryManager} -in [gi::getWindows 0]
+[14:39:28.88] /i dm::showLibraryManager
+[14:39:28.88] /r giWindowId 2
+[14:39:28.89] /r giWindowGeometry 660x600+50+77
+[14:39:30.71] /i db::setAttr maximized -of [gi::getFrames 2] -value true
+[14:39:31.02] /i db::setAttr geometry -of [gi::getFrames 2] -value 1910x1020+5+55
+[14:39:32.68] /i gi::setCurrentIndex {libs} -index {D_CELLS_HDLL} -in [gi::getWindows 2]
+[14:39:32.76] /i gi::setItemSelection {libs} -index {D_CELLS_HDLL} -in [gi::getWindows 2]
+[14:39:34.42] /i gi::setCurrentIndex {cells} -index {AN33HDLLX4} -in [gi::getWindows 2]
+[14:39:34.52] /i gi::setItemSelection {cells} -index {AN33HDLLX4} -in [gi::getWindows 2]
+[14:39:40.62] /i gi::setCurrentIndex {cells} -index {DFFRSHDLLX0} -in [gi::getWindows 2]
+[14:39:40.71] /i gi::setItemSelection {cells} -index {DFFRSHDLLX0} -in [gi::getWindows 2]
+[14:39:43.99] /# gi::executeAction {dmShowCopyCell} -in [gi::getWindows 2]
+[14:39:43.99] /i dm::showCopyCell -parent 2
+[14:39:44.14] /i gi::setActiveDialog [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:39:44.39] /i db::setAttr geometry -of [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]] -value 474x718+713+154
+[14:39:46.83] /i gi::setCurrentIndex {fromLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:39:46.83] /i gi::setItemSelection {fromLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:39:52.69] /i gi::closeWindows [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:39:57.60] /# gi::executeAction {dmShowCopyCell} -in [gi::getWindows 2]
+[14:39:57.60] /i dm::showCopyCell -parent 2
+[14:39:57.74] /i gi::setActiveDialog [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:39:58.00] /i db::setAttr geometry -of [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]] -value 474x718+713+154
+[14:40:03.02] /i gi::setCurrentIndex {toLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:40:03.03] /i gi::setItemSelection {toLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:40:06.43] /i gi::setCurrentIndex {toCellCategories} -index {Uncategorized} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:40:06.43] /i gi::setItemSelection {toCellCategories} -index {Uncategorized} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:40:07.32] /i gi::setCurrentIndex {toCellCategories} -index {All} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:40:07.33] /i gi::setItemSelection {toCellCategories} -index {All} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:40:10.57] /i gi::pressButton {ok} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 2]]
+[14:40:10.61] /# dm::copyCells [db::createCollection [list [dm::findCell DFFRSHDLLX0 -libName D\_CELLS\_HDLL] ] ] -libDestName FlipFlopt3 -cellDestName DFFRSHDLLX0 -updateSearch changed -maintainCategories true -includeViews {*} -includeViewTypes {*}
+[14:40:10.97] /w Warning: master.tag file is missing for cell view FlipFlopt3/DFFRSHDLLX0/dataSheet. (DESIGN-001)
+[14:40:13.30] /i gi::setCurrentIndex {libs} -index {FlipFlopt3} -in [gi::getWindows 2]
+[14:40:13.42] /i gi::setItemSelection {libs} -index {FlipFlopt3} -in [gi::getWindows 2]
+[14:40:17.03] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[14:40:17.04] /i gi::setActiveWindow 0
+[14:40:17.04] /i gi::setActiveWindow 0 -raise true
+[14:40:19.59] /i gi::setActiveWindow 1
+[14:40:19.59] /i gi::setActiveWindow 1 -raise true
+[14:40:19.79] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[14:40:19.89] /i gi::setActiveWindow 0
+[14:40:19.89] /i gi::setActiveWindow 0 -raise true
+[14:40:33.62] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[14:40:33.67] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[14:40:33.93] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[14:40:35.23] /i gi::setCurrentIndex {libs} -index {FlipFlopt3} -in [gi::getDialogs {dmNewCellView}]
+[14:40:35.24] /i gi::setItemSelection {libs} -index {FlipFlopt3} -in [gi::getDialogs {dmNewCellView}]
+[14:40:36.93] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getDialogs {dmNewCellView}]
+[14:40:36.93] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getDialogs {dmNewCellView}]
+[14:40:38.39] /i gi::setCurrentIndex {cells} -index {DFFRSHDLLX0} -in [gi::getDialogs {dmNewCellView}]
+[14:40:38.39] /i gi::setItemSelection {cells} -index {flipflop_1bit} -in [gi::getDialogs {dmNewCellView}]
+[14:40:38.39] /i gi::setItemSelection {cells} -index {} -in [gi::getDialogs {dmNewCellView}]
+[14:40:38.39] /i gi::setItemSelection {cells} -index {} -in [gi::getDialogs {dmNewCellView}]
+[14:40:39.17] /i gi::setCurrentIndex {cells} -index {flipflop_1bit} -in [gi::getDialogs {dmNewCellView}]
+[14:40:39.17] /i gi::setItemSelection {cells} -index {flipflop_1bit} -in [gi::getDialogs {dmNewCellView}]
+[14:40:39.24] /r giDialog gi::setActiveDialog [gi::getDialogs {dmRefreshLibs}]
+[14:40:39.50] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmRefreshLibs}] -value 500x193+700+417
+[14:40:41.64] /r giDialog gi::closeWindows [gi::getDialogs {dmRefreshLibs}]
+[14:40:41.65] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[14:40:45.30] /i gi::setCurrentIndex {libs} -index {basic_cells} -in [gi::getDialogs {dmNewCellView}]
+[14:40:45.30] /i gi::setItemSelection {libs} -index {basic_cells} -in [gi::getDialogs {dmNewCellView}]
+[14:40:47.79] /i gi::setCurrentIndex {libs} -index {FlipFlopt3} -in [gi::getDialogs {dmNewCellView}]
+[14:40:47.80] /i gi::setItemSelection {libs} -index {FlipFlopt3} -in [gi::getDialogs {dmNewCellView}]
+[14:40:49.65] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getDialogs {dmNewCellView}]
+[14:40:49.66] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getDialogs {dmNewCellView}]
+[14:41:09.74] /i gi::closeWindows [gi::getDialogs {dmNewCellView}]
+[14:41:12.84] /# gi::executeAction {dmShowLibraryManager} -in [gi::getWindows 0]
+[14:41:12.84] /i dm::showLibraryManager
+[14:41:12.84] /r giWindowId 3
+[14:41:12.84] /r giWindowGeometry 1910x1020+5+55
+[14:41:12.84] /i db::setAttr maximized -of [gi::getFrames 3] -value true
+[14:41:14.59] /i gi::setCurrentIndex {libs} -index {D_CELLS_HDLL} -in [gi::getWindows 3]
+[14:41:14.66] /i gi::setItemSelection {libs} -index {D_CELLS_HDLL} -in [gi::getWindows 3]
+[14:41:21.90] /i gi::setCurrentIndex {cells} -index {DFFQHDLLX0} -in [gi::getWindows 3]
+[14:41:22.01] /i gi::setItemSelection {cells} -index {DFFQHDLLX0} -in [gi::getWindows 3]
+[14:41:23.77] /# gi::executeAction {dmShowCopyCell} -in [gi::getWindows 3]
+[14:41:23.77] /i dm::showCopyCell -parent 3
+[14:41:23.92] /i gi::setActiveDialog [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:24.18] /i db::setAttr geometry -of [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]] -value 474x718+713+154
+[14:41:25.50] /i gi::setCurrentIndex {toLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:25.50] /i gi::setItemSelection {toLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:29.66] /i gi::pressButton {ok} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:29.67] /# dm::copyCells [db::createCollection [list [dm::findCell DFFQHDLLX0 -libName D\_CELLS\_HDLL] ] ] -libDestName FlipFlopt3 -cellDestName DFFQHDLLX0 -updateSearch changed -maintainCategories true -includeViews {*} -includeViewTypes {*}
+[14:41:29.68] /e Error: The library 'FlipFlopt3' not found (DATA_MANAGEMENT-016)
+[14:41:29.72] /r giDialog gi::setActiveDialog [gi::getDialogs {dmErrorDialog}]
+[14:41:29.99] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmErrorDialog}] -value 412x82+744+472
+[14:41:35.07] /r giDialog gi::closeWindows [gi::getDialogs {dmErrorDialog}]
+[14:41:35.08] /i gi::setActiveDialog [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:44.35] /i gi::sortItems {fromCells} -column {Cells} -order {descending} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:44.93] /i gi::setCurrentIndex {fromCells} -index {OA211HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:44.96] /i gi::setItemSelection {fromCells} -index {OA211HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:45.69] /i gi::setItemSelection {fromCells} -index {OA211HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:45.69] /i gi::setCurrentIndex {fromCells} -index {OA211HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:46.00] /i gi::setItemSelection {fromCells} -index {OA221HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:46.00] /i gi::setCurrentIndex {fromCells} -index {OA221HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.01] /i gi::setItemSelection {fromCells} -index {OA211HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.01] /i gi::setCurrentIndex {fromCells} -index {OA211HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.19] /i gi::setItemSelection {fromCells} -index {OA211HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.19] /i gi::setCurrentIndex {fromCells} -index {OA211HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.33] /i gi::setItemSelection {fromCells} -index {OA211HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.33] /i gi::setCurrentIndex {fromCells} -index {OA211HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.48] /i gi::setItemSelection {fromCells} -index {OA211HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.48] /i gi::setCurrentIndex {fromCells} -index {OA211HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.62] /i gi::setItemSelection {fromCells} -index {OA33HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.62] /i gi::setCurrentIndex {fromCells} -index {OA33HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.79] /i gi::setItemSelection {fromCells} -index {OA33HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:47.79] /i gi::setCurrentIndex {fromCells} -index {OA33HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.02] /i gi::setItemSelection {fromCells} -index {OA33HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.02] /i gi::setCurrentIndex {fromCells} -index {OA33HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.22] /i gi::setItemSelection {fromCells} -index {OA33HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.22] /i gi::setCurrentIndex {fromCells} -index {OA33HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.41] /i gi::setItemSelection {fromCells} -index {OA32HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.41] /i gi::setCurrentIndex {fromCells} -index {OA32HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.55] /i gi::setItemSelection {fromCells} -index {OA32HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.55] /i gi::setCurrentIndex {fromCells} -index {OA32HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.73] /i gi::setItemSelection {fromCells} -index {OA32HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.73] /i gi::setCurrentIndex {fromCells} -index {OA32HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.90] /i gi::setItemSelection {fromCells} -index {OA32HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:48.90] /i gi::setCurrentIndex {fromCells} -index {OA32HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.06] /i gi::setItemSelection {fromCells} -index {OA31HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.06] /i gi::setCurrentIndex {fromCells} -index {OA31HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.23] /i gi::setItemSelection {fromCells} -index {OA31HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.23] /i gi::setCurrentIndex {fromCells} -index {OA31HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.40] /i gi::setItemSelection {fromCells} -index {OA31HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.40] /i gi::setCurrentIndex {fromCells} -index {OA31HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.57] /i gi::setItemSelection {fromCells} -index {OA31HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.57] /i gi::setCurrentIndex {fromCells} -index {OA31HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.73] /i gi::setItemSelection {fromCells} -index {OA22HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.73] /i gi::setCurrentIndex {fromCells} -index {OA22HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.88] /i gi::setItemSelection {fromCells} -index {OA22HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:49.88] /i gi::setCurrentIndex {fromCells} -index {OA22HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.02] /i gi::setItemSelection {fromCells} -index {OA22HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.02] /i gi::setCurrentIndex {fromCells} -index {OA22HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.54] /i gi::setItemSelection {fromCells} -index {OA22HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.54] /i gi::setCurrentIndex {fromCells} -index {OA22HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.57] /i gi::setItemSelection {fromCells} -index {OA21HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.57] /i gi::setCurrentIndex {fromCells} -index {OA21HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.60] /i gi::setItemSelection {fromCells} -index {OA21HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.60] /i gi::setCurrentIndex {fromCells} -index {OA21HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.67] /i gi::setItemSelection {fromCells} -index {OA21HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.67] /i gi::setCurrentIndex {fromCells} -index {OA21HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.69] /i gi::setItemSelection {fromCells} -index {OA21HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.69] /i gi::setCurrentIndex {fromCells} -index {OA21HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.71] /i gi::setItemSelection {fromCells} -index {NO22HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.71] /i gi::setCurrentIndex {fromCells} -index {NO22HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.74] /i gi::setItemSelection {fromCells} -index {NO22HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.74] /i gi::setCurrentIndex {fromCells} -index {NO22HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.76] /i gi::setItemSelection {fromCells} -index {NO22HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.76] /i gi::setCurrentIndex {fromCells} -index {NO22HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.79] /i gi::setItemSelection {fromCells} -index {NO22HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.79] /i gi::setCurrentIndex {fromCells} -index {NO22HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.81] /i gi::setItemSelection {fromCells} -index {NO6I5HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.81] /i gi::setCurrentIndex {fromCells} -index {NO6I5HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.84] /i gi::setItemSelection {fromCells} -index {NO6I5HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.84] /i gi::setCurrentIndex {fromCells} -index {NO6I5HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.87] /i gi::setItemSelection {fromCells} -index {NO6I5HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.87] /i gi::setCurrentIndex {fromCells} -index {NO6I5HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.90] /i gi::setItemSelection {fromCells} -index {NO6I5HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.90] /i gi::setCurrentIndex {fromCells} -index {NO6I5HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.93] /i gi::setItemSelection {fromCells} -index {NO6I4HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.93] /i gi::setCurrentIndex {fromCells} -index {NO6I4HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.96] /i gi::setItemSelection {fromCells} -index {NO6I4HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.96] /i gi::setCurrentIndex {fromCells} -index {NO6I4HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.99] /i gi::setItemSelection {fromCells} -index {NO6I4HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:50.99] /i gi::setCurrentIndex {fromCells} -index {NO6I4HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:51.02] /i gi::setItemSelection {fromCells} -index {NO6I4HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:51.02] /i gi::setCurrentIndex {fromCells} -index {NO6I4HDLLX0} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:51.05] /i gi::setItemSelection {fromCells} -index {NO6I3HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:51.05] /i gi::setCurrentIndex {fromCells} -index {NO6I3HDLLX4} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:51.08] /i gi::setItemSelection {fromCells} -index {NO6I3HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:51.08] /i gi::setCurrentIndex {fromCells} -index {NO6I3HDLLX2} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:51.12] /i gi::setItemSelection {fromCells} -index {NO6I3HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:51.12] /i gi::setCurrentIndex {fromCells} -index {NO6I3HDLLX1} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:57.10] /i gi::setCurrentIndex {fromLibs} -index {D_CELLS_HDMV} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:57.15] /i gi::setItemSelection {toCellCategories} -index {} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:57.15] /i gi::setItemSelection {toCellCategories} -index {All} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:57.15] /i gi::setItemSelection {fromLibs} -index {D_CELLS_HDMV} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:58.62] /i gi::setCurrentIndex {fromLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:58.64] /i gi::setItemSelection {toCellCategories} -index {} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:58.64] /i gi::setItemSelection {toCellCategories} -index {All} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:41:58.66] /i gi::setItemSelection {fromLibs} -index {D_CELLS_HDLL} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:42:01.76] /i gi::closeWindows [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:42:04.82] /# gi::executeAction {dmShowCopyCell} -in [gi::getWindows 3]
+[14:42:04.82] /i dm::showCopyCell -parent 3
+[14:42:04.96] /i gi::setActiveDialog [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:42:05.20] /i db::setAttr geometry -of [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]] -value 474x718+713+154
+[14:42:07.22] /i gi::setCurrentIndex {toLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:42:07.22] /i gi::setItemSelection {toLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:42:09.60] /i gi::pressButton {ok} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:42:09.61] /# dm::copyCells [db::createCollection [list [dm::findCell DFFQHDLLX0 -libName D\_CELLS\_HDLL] ] ] -libDestName FlipFlopt3 -cellDestName DFFQHDLLX0 -updateSearch changed -maintainCategories true -includeViews {*} -includeViewTypes {*}
+[14:42:09.62] /e Error: The library 'FlipFlopt3' not found (DATA_MANAGEMENT-016)
+[14:42:09.65] /r giDialog gi::setActiveDialog [gi::getDialogs {dmErrorDialog}]
+[14:42:09.90] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmErrorDialog}] -value 412x82+744+472
+[14:42:11.98] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {dmErrorDialog}]
+[14:42:11.99] /i gi::setActiveDialog [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:42:14.39] /i gi::closeWindows [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 3]]
+[14:42:15.93] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[14:42:15.95] /i gi::setActiveWindow 0
+[14:42:15.95] /i gi::setActiveWindow 0 -raise true
+[14:42:44.58] /# gi::executeAction {dmShowLibraryManager} -in [gi::getWindows 0]
+[14:42:44.58] /i dm::showLibraryManager
+[14:42:44.58] /r giWindowId 4
+[14:42:44.58] /r giWindowGeometry 1910x1020+5+55
+[14:42:44.58] /i db::setAttr maximized -of [gi::getFrames 4] -value true
+[14:42:46.22] /i gi::setCurrentIndex {libs} -index {D_CELLS_HDLL} -in [gi::getWindows 4]
+[14:42:46.31] /i gi::setItemSelection {libs} -index {D_CELLS_HDLL} -in [gi::getWindows 4]
+[14:42:50.55] /i gi::setCurrentIndex {cells} -index {DFFHDLLX0} -in [gi::getWindows 4]
+[14:42:50.64] /i gi::setItemSelection {cells} -index {DFFHDLLX0} -in [gi::getWindows 4]
+[14:42:53.23] /# gi::executeAction {dmShowCopyCell} -in [gi::getWindows 4]
+[14:42:53.23] /i dm::showCopyCell -parent 4
+[14:42:53.37] /i gi::setActiveDialog [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:42:53.60] /i db::setAttr geometry -of [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]] -value 474x718+713+154
+[14:42:55.05] /i gi::setCurrentIndex {toLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:42:55.05] /i gi::setItemSelection {toLibs} -index {FlipFlopt3} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:43:00.18] /i gi::setCurrentIndex {toLibs} -index {basic_cells} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:43:00.19] /i gi::setItemSelection {toLibs} -index {basic_cells} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:43:05.82] /i gi::setField {toLibsFilter} -value {Fl} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:43:06.04] /i gi::sortItems {toLibs} -column {Libraries} -order {descending} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:43:06.98] /i gi::sortItems {toLibs} -column {Libraries} -order {ascending} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:43:08.02] /i gi::sortItems {toLibs} -column {Libraries} -order {descending} -in [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:43:15.40] /i gi::closeWindows [gi::getDialogs {dmCopyCell} -parent [gi::getWindows 4]]
+[14:43:17.11] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[14:43:17.13] /i gi::setActiveWindow 0
+[14:43:17.13] /i gi::setActiveWindow 0 -raise true
+[14:43:25.20] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[14:43:25.26] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[14:43:25.57] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]] -value 354x207+799+704
+[14:43:28.44] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[14:43:38.98] /o Shutdown time: Sun Dec  1 14:43:38 2024
+[14:43:38.98] /o Elapsed session real time: 9.75 minutes
+[14:43:38.98] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_II_2024/mmoncada/vlsi_chip_design/Tarea3/FFE_AE/synopsys_custom/logs/ccompiler.Martinez_Moncada_I_2024_vlsi.2024_12_1_143349_807059.log
